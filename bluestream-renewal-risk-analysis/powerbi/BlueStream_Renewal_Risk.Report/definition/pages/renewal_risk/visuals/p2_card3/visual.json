@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "p2_card3",
+  "position": {
+    "x": 640,
+    "y": 92,
+    "z": 12,
+    "width": 298,
+    "height": 100,
+    "tabOrder": 12
+  },
+  "visual": {
+    "visualType": "card",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "High-Risk Renewals"
+                }
+              },
+              "queryRef": "_Measures.High-Risk Renewals",
+              "nativeQueryRef": "High-Risk Renewals",
+              "displayName": "High-risk renewals (score \u2265 50)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

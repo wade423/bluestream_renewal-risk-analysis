@@ -1,0 +1,501 @@
+community_id,community_name,region_id,community_type,total_units,build_type,fiber_conversion_date,contract_start_date,contract_end_date,contract_term_years,times_renewed,bulk_tier_mbps,bulk_rate_per_door,competitor_activity_flag
+C0001,Osprey Trace,SFL,Master-Planned New Construction,206,Native FTTH,,2017-09-09,2027-09-09,10,0,500,60.86,1
+C0002,Pelican Run,SFL,Multifamily / Apartment,174,Legacy HFC,,2021-06-25,2031-06-25,10,0,300,58.12,0
+C0003,Orchid Bend,SFL,Master-Planned New Construction,589,Native FTTH,,2020-02-07,2030-02-07,10,0,500,57.61,0
+C0004,Harbor Commons,SFL,55+ Active Adult,220,Converted HFC to FTTH,2025-07-01,2022-04-08,2027-04-08,5,0,500,58.77,0
+C0005,Banyan Pointe,SFL,HOA - Single Family,220,Converted HFC to FTTH,2020-05-18,2020-09-27,2030-09-27,10,0,300,43.48,0
+C0006,Palm Isles,SFL,Multifamily / Apartment,188,Converted HFC to FTTH,2026-06-01,2023-02-13,2028-02-13,5,0,500,52.32,0
+C0007,Sawgrass Ridge,SFL,HOA - Single Family,206,Native FTTH,,2022-11-17,2032-11-17,10,0,300,55.14,1
+C0008,Willow Ridge,SFL,Multifamily / Apartment,601,Converted HFC to FTTH,2023-01-07,2020-03-25,2027-03-25,7,0,1000,71.52,1
+C0009,Sandpiper Pointe,SFL,Multifamily / Apartment,146,Converted HFC to FTTH,2024-05-07,2025-08-29,2032-08-29,7,1,500,66.62,0
+C0010,Harbor Preserve,SFL,HOA - Single Family,194,Converted HFC to FTTH,2021-08-26,2024-03-05,2031-03-05,7,1,300,49.64,0
+C0011,Heron Reserve,SFL,HOA - Single Family,471,Native FTTH,,2023-01-17,2028-01-17,5,0,500,52.36,0
+C0012,Lantana Crossing,SFL,HOA - Single Family,169,Converted HFC to FTTH,2019-09-12,2023-03-22,2033-03-22,10,0,1000,62.25,0
+C0013,Mangrove Park,SFL,HOA - Single Family,360,Native FTTH,,2020-11-21,2027-11-21,7,0,500,63.62,0
+C0014,Fox Isles,SFL,Multifamily / Apartment,240,Converted HFC to FTTH,2021-08-25,2022-12-06,2027-12-06,5,0,1000,69.3,0
+C0015,Eagle Crossing,SFL,55+ Active Adult,296,Legacy HFC,,2021-08-22,2028-08-22,7,0,300,49.27,1
+C0016,Magnolia Hammock,SFL,COA - Condominium,218,Native FTTH,,2021-11-22,2026-11-22,5,0,500,65.17,0
+C0017,Fox Ridge,SFL,COA - Condominium,205,Native FTTH,,2025-05-01,2030-05-01,5,1,300,50.87,0
+C0018,Pelican Shores,SFL,COA - Condominium,227,Native FTTH,,2024-10-07,2031-10-07,7,1,500,60.42,0
+C0019,Mangrove Preserve,SFL,Master-Planned New Construction,642,Native FTTH,,2023-06-12,2033-06-12,10,0,1000,74.26,0
+C0020,Lantana Pointe,SFL,55+ Active Adult,268,Converted HFC to FTTH,2020-05-05,2024-04-03,2029-04-03,5,0,1000,68.26,1
+C0021,Palm Ridge,SFL,Multifamily / Apartment,165,Legacy HFC,,2019-10-28,2029-10-28,10,0,300,47.74,0
+C0022,Harbor Isles,SFL,COA - Condominium,141,Native FTTH,,2023-08-21,2033-08-21,10,0,1000,67.3,0
+C0023,Tortoise Isles,SFL,HOA - Single Family,350,Converted HFC to FTTH,2021-11-16,2023-08-10,2028-08-10,5,1,1000,60.28,1
+C0024,Orchid Lakes,SFL,Multifamily / Apartment,380,Native FTTH,,2022-09-21,2027-09-21,5,0,300,54.98,0
+C0025,Silver Lake Ridge,SFL,55+ Active Adult,1246,Native FTTH,,2021-05-05,2028-05-05,7,0,500,59.27,0
+C0026,Harbor Park,SFL,HOA - Single Family,76,Converted HFC to FTTH,2026-05-01,2025-02-12,2032-02-12,7,0,500,59.22,0
+C0027,Hibiscus Ridge,SFL,55+ Active Adult,302,Legacy HFC,,2023-02-03,2030-02-03,7,1,300,48.54,0
+C0028,Magnolia Village,SFL,Multifamily / Apartment,61,Legacy HFC,,2026-08-18,2031-08-18,5,1,300,48.95,0
+C0029,Magnolia Trace,SFL,COA - Condominium,235,Converted HFC to FTTH,2026-05-01,2022-07-17,2029-07-17,7,0,1000,64.38,0
+C0030,Coral Ridge,SFL,55+ Active Adult,96,Native FTTH,,2024-01-25,2031-01-25,7,1,500,60.3,0
+C0031,Live Oak Landing,SFL,Multifamily / Apartment,466,Converted HFC to FTTH,2020-07-18,2025-11-02,2030-11-02,5,1,1000,59.14,0
+C0032,Tarpon Crossing,SFL,55+ Active Adult,1035,Converted HFC to FTTH,2021-01-30,2021-05-24,2031-05-24,10,0,500,57.83,0
+C0033,Osprey Ridge,SFL,Multifamily / Apartment,105,Converted HFC to FTTH,2025-08-01,2021-01-20,2031-01-20,10,0,1000,67.2,0
+C0034,Live Oak Crossing,SFL,Master-Planned New Construction,144,Native FTTH,,2021-11-19,2031-11-19,10,0,500,55.0,0
+C0035,Manatee Isles,SFL,HOA - Single Family,695,Legacy HFC,,2024-05-08,2031-05-08,7,1,300,45.33,0
+C0036,Sandpiper Trace,SFL,COA - Condominium,284,Native FTTH,,2023-06-21,2030-06-21,7,0,500,68.29,0
+C0037,Mangrove Shores,SFL,Master-Planned New Construction,211,Native FTTH,,2026-05-07,2036-05-07,10,1,1000,69.8,0
+C0038,Bay Ridge,SFL,Multifamily / Apartment,429,Legacy HFC,,2024-01-16,2031-01-16,7,1,300,48.5,1
+C0039,Orchid Landing,SFL,55+ Active Adult,230,Native FTTH,,2024-10-20,2031-10-20,7,1,300,55.92,0
+C0040,Magnolia Crossing,SFL,HOA - Single Family,217,Native FTTH,,2021-03-19,2028-03-19,7,0,500,54.27,0
+C0041,Willow Park,SFL,Master-Planned New Construction,214,Native FTTH,,2019-10-07,2029-10-07,10,0,1000,59.74,0
+C0042,Cypress Isles,SFL,COA - Condominium,295,Legacy HFC,,2026-09-07,2031-09-07,5,2,300,50.93,0
+C0043,Cypress Shores,SFL,55+ Active Adult,260,Converted HFC to FTTH,2026-03-01,2019-03-17,2029-03-17,10,0,1000,65.51,0
+C0044,Coral Shores,SFL,HOA - Single Family,290,Native FTTH,,2018-02-16,2028-02-16,10,0,500,57.95,0
+C0045,Crescent Park,SFL,HOA - Single Family,354,Legacy HFC,,2024-07-20,2029-07-20,5,1,300,56.67,0
+C0046,Live Oak Estates,SFL,55+ Active Adult,203,Converted HFC to FTTH,2025-02-01,2024-11-25,2031-11-25,7,1,500,55.16,0
+C0047,Lantana Village,SFL,COA - Condominium,641,Legacy HFC,,2023-09-20,2028-09-20,5,1,500,57.78,0
+C0048,Sabal Park,SFL,COA - Condominium,74,Native FTTH,,2024-10-12,2029-10-12,5,0,500,58.84,0
+C0049,Pelican Village,SFL,COA - Condominium,119,Converted HFC to FTTH,2025-04-01,2023-03-23,2028-03-23,5,1,300,48.63,0
+C0050,Crescent Preserve,SFL,55+ Active Adult,929,Converted HFC to FTTH,2023-03-09,2026-05-27,2033-05-27,7,1,500,56.33,0
+C0051,Stone Crossing,SFL,55+ Active Adult,280,Converted HFC to FTTH,2026-02-01,2019-11-07,2026-11-07,7,0,1000,61.1,0
+C0052,Willow Crossing,SFL,HOA - Single Family,141,Converted HFC to FTTH,2021-01-22,2024-12-01,2029-12-01,5,0,300,51.47,0
+C0053,Sandpiper Lakes,SFL,COA - Condominium,481,Native FTTH,,2021-06-29,2028-06-29,7,0,500,59.71,0
+C0054,Pelican Estates,SFL,Master-Planned New Construction,179,Native FTTH,,2024-12-29,2034-12-29,10,0,1000,63.55,1
+C0055,Heron Estates,SFL,55+ Active Adult,537,Converted HFC to FTTH,2022-04-29,2022-10-29,2027-10-29,5,0,1000,70.06,0
+C0056,Tortoise Crossing,SFL,HOA - Single Family,647,Native FTTH,,2025-03-09,2032-03-09,7,1,1000,66.59,0
+C0057,Bluewater Reserve,SFL,HOA - Single Family,111,Native FTTH,,2025-01-05,2032-01-05,7,0,500,53.61,1
+C0058,Hibiscus Estates,SFL,COA - Condominium,374,Converted HFC to FTTH,2026-05-01,2020-11-27,2027-11-27,7,0,1000,66.49,1
+C0059,Orchid Ridge,SFL,Multifamily / Apartment,184,Converted HFC to FTTH,2021-11-21,2021-07-08,2031-07-08,10,0,500,52.7,0
+C0060,Willow Preserve,SFL,55+ Active Adult,460,Converted HFC to FTTH,2020-07-29,2024-09-13,2029-09-13,5,0,500,59.77,1
+C0061,Willow Trace,SFL,Multifamily / Apartment,66,Native FTTH,,2026-07-01,2031-07-01,5,2,500,53.24,0
+C0062,Osprey Village,SFL,Master-Planned New Construction,237,Native FTTH,,2023-01-11,2033-01-11,10,0,300,65.67,0
+C0063,Juniper Estates,SFL,Multifamily / Apartment,137,Native FTTH,,2025-02-15,2032-02-15,7,1,1000,64.07,0
+C0064,Silver Lake Isles,SFL,COA - Condominium,216,Native FTTH,,2023-06-06,2030-06-06,7,1,500,63.07,0
+C0065,Silver Lake Trace,SFL,55+ Active Adult,326,Converted HFC to FTTH,2019-03-23,2022-10-02,2027-10-02,5,1,500,61.23,1
+C0066,Mangrove Lakes,SFL,HOA - Single Family,148,Converted HFC to FTTH,2019-05-20,2026-10-26,2033-10-26,7,1,500,58.04,0
+C0067,Harbor Crossing,SFL,HOA - Single Family,66,Native FTTH,,2022-08-16,2032-08-16,10,0,1000,73.0,1
+C0068,Sawgrass Village,SFL,HOA - Single Family,322,Converted HFC to FTTH,2019-06-18,2024-08-25,2031-08-25,7,1,500,60.39,0
+C0069,Osprey Park,SFL,COA - Condominium,135,Native FTTH,,2024-02-15,2029-02-15,5,0,500,58.55,0
+C0070,Pelican Reserve,SFL,HOA - Single Family,138,Legacy HFC,,2018-07-05,2028-07-05,10,0,300,46.86,0
+C0071,Orchid Run,SFL,Multifamily / Apartment,256,Converted HFC to FTTH,2024-06-08,2024-08-28,2029-08-28,5,0,300,47.78,0
+C0072,Willow Landing,SFL,HOA - Single Family,175,Converted HFC to FTTH,2019-03-10,2025-05-22,2032-05-22,7,1,1000,70.59,0
+C0073,Eagle Shores,SFL,Master-Planned New Construction,114,Native FTTH,,2026-06-26,2033-06-26,7,1,500,55.84,0
+C0074,Cedar Bend,SFL,COA - Condominium,147,Converted HFC to FTTH,2026-04-01,2024-03-31,2031-03-31,7,0,300,47.8,0
+C0075,Ibis Trace,SFL,HOA - Single Family,173,Native FTTH,,2022-05-05,2027-05-05,5,1,1000,63.91,0
+C0076,Bluewater Hammock,SFL,55+ Active Adult,579,Converted HFC to FTTH,2019-09-15,2021-12-22,2026-12-22,5,1,500,59.48,0
+C0077,Willow Bend,SFL,HOA - Single Family,382,Converted HFC to FTTH,2023-08-25,2021-12-28,2026-12-28,5,1,300,51.96,1
+C0078,Seagrape Reserve,SFL,55+ Active Adult,403,Converted HFC to FTTH,2025-09-01,2020-07-17,2027-07-17,7,0,500,54.35,1
+C0079,Tarpon Bend,SFL,Multifamily / Apartment,240,Legacy HFC,,2022-08-23,2032-08-23,10,0,500,51.41,0
+C0080,Coral Isles,SFL,HOA - Single Family,120,Legacy HFC,,2021-04-26,2028-04-26,7,0,300,49.35,0
+C0081,Pelican Cove,SFL,55+ Active Adult,886,Converted HFC to FTTH,2025-11-01,2026-06-29,2031-06-29,5,1,300,49.35,0
+C0082,Cypress Village,SFL,COA - Condominium,249,Converted HFC to FTTH,2020-11-06,2024-12-04,2031-12-04,7,0,1000,67.37,1
+C0083,Ibis Preserve,SFL,HOA - Single Family,237,Converted HFC to FTTH,2024-06-19,2024-11-15,2031-11-15,7,1,1000,64.46,0
+C0084,Ibis Run,SFL,HOA - Single Family,687,Legacy HFC,,2022-09-15,2027-09-15,5,0,300,51.06,0
+C0085,Sandpiper Shores,SFL,COA - Condominium,429,Converted HFC to FTTH,2026-03-01,2018-07-22,2028-07-22,10,0,300,54.04,0
+C0086,Coral Bend,SFL,HOA - Single Family,176,Converted HFC to FTTH,2025-08-01,2020-07-16,2027-07-16,7,0,500,59.26,0
+C0087,Crescent Run,SFL,55+ Active Adult,182,Native FTTH,,2024-04-24,2031-04-24,7,0,500,61.6,0
+C0088,Bluewater Run,SFL,Master-Planned New Construction,88,Native FTTH,,2026-04-18,2031-04-18,5,2,500,60.24,0
+C0089,Palm Lakes,SFL,HOA - Single Family,169,Converted HFC to FTTH,2025-05-01,2020-07-08,2027-07-08,7,0,500,56.14,0
+C0090,Seagrape Crossing,SFL,55+ Active Adult,761,Legacy HFC,,2020-09-13,2030-09-13,10,0,300,51.55,0
+C0091,Coral Run,SFL,COA - Condominium,202,Native FTTH,,2021-07-23,2031-07-23,10,0,300,51.45,0
+C0092,Crescent Village,SFL,HOA - Single Family,304,Native FTTH,,2026-05-20,2033-05-20,7,1,500,56.24,0
+C0093,Seagrape Lakes,SFL,Multifamily / Apartment,98,Converted HFC to FTTH,2025-08-01,2020-07-04,2027-07-04,7,0,1000,64.97,0
+C0094,Cypress Pointe,SFL,Multifamily / Apartment,979,Converted HFC to FTTH,2025-11-01,2023-02-26,2030-02-26,7,0,500,62.62,0
+C0095,Crescent Cove,SFL,COA - Condominium,97,Legacy HFC,,2017-11-09,2027-11-09,10,0,300,44.95,0
+C0096,Eagle Trace,SFL,HOA - Single Family,641,Converted HFC to FTTH,2022-01-12,2018-03-26,2028-03-26,10,0,500,59.62,1
+C0097,Crescent Trace,SFL,55+ Active Adult,251,Converted HFC to FTTH,2026-06-01,2023-08-22,2033-08-22,10,0,300,46.3,0
+C0098,Cypress Hammock,SFL,55+ Active Adult,433,Converted HFC to FTTH,2025-12-01,2022-11-13,2027-11-13,5,0,1000,63.81,1
+C0099,Bay Park,SFL,Master-Planned New Construction,407,Native FTTH,,2024-10-22,2034-10-22,10,0,500,60.3,0
+C0100,Manatee Run,SFL,Master-Planned New Construction,393,Native FTTH,,2023-08-02,2028-08-02,5,1,500,60.94,0
+C0101,Lantana Reserve,SFL,Multifamily / Apartment,371,Converted HFC to FTTH,2020-12-12,2026-05-06,2036-05-06,10,1,500,60.33,0
+C0102,Palm Run,SFL,55+ Active Adult,444,Converted HFC to FTTH,2019-06-25,2026-02-21,2031-02-21,5,1,1000,62.73,0
+C0103,Osprey Bend,SFL,HOA - Single Family,250,Legacy HFC,,2022-09-01,2027-09-01,5,1,500,62.61,0
+C0104,Tortoise Lakes,SFL,COA - Condominium,139,Converted HFC to FTTH,2026-05-01,2023-12-15,2030-12-15,7,0,300,49.17,1
+C0105,Palm Commons,SFL,HOA - Single Family,332,Native FTTH,,2025-03-13,2032-03-13,7,0,300,52.09,0
+C0106,Cypress Estates,SFL,COA - Condominium,132,Converted HFC to FTTH,2025-08-01,2023-07-11,2030-07-11,7,1,500,54.93,0
+C0107,Bluewater Crossing,SFL,COA - Condominium,289,Legacy HFC,,2023-11-23,2030-11-23,7,0,500,52.4,0
+C0108,Willow Run,SFL,COA - Condominium,186,Converted HFC to FTTH,2024-05-03,2024-10-21,2029-10-21,5,1,1000,66.02,0
+C0109,Bay Isles,SFL,HOA - Single Family,426,Converted HFC to FTTH,2025-09-01,2025-01-30,2035-01-30,10,0,500,65.89,0
+C0110,Hibiscus Pointe,SFL,Multifamily / Apartment,124,Converted HFC to FTTH,2025-10-01,2024-07-21,2031-07-21,7,0,500,62.13,0
+C0111,Cedar Ridge,SFL,HOA - Single Family,238,Legacy HFC,,2023-08-13,2030-08-13,7,1,300,48.36,1
+C0112,Orchid Commons,SFL,55+ Active Adult,942,Converted HFC to FTTH,2025-03-01,2022-06-20,2032-06-20,10,0,500,60.66,0
+C0113,Fox Landing,SFL,HOA - Single Family,728,Converted HFC to FTTH,2019-12-24,2025-01-17,2032-01-17,7,0,1000,67.43,0
+C0114,Bluewater Park,SFL,Master-Planned New Construction,737,Native FTTH,,2024-03-22,2029-03-22,5,0,1000,69.9,0
+C0115,Eagle Lakes,SFL,HOA - Single Family,170,Converted HFC to FTTH,2023-12-27,2024-05-05,2029-05-05,5,0,500,60.77,0
+C0116,Stone Reserve,SFL,55+ Active Adult,320,Native FTTH,,2022-11-16,2027-11-16,5,1,500,47.0,0
+C0117,Fox Reserve,SFL,COA - Condominium,122,Converted HFC to FTTH,2022-05-30,2024-03-17,2034-03-17,10,0,1000,65.28,0
+C0118,Lantana Park,SFL,HOA - Single Family,82,Converted HFC to FTTH,2019-02-03,2021-08-03,2028-08-03,7,0,1000,66.05,1
+C0119,Osprey Pointe,SFL,55+ Active Adult,395,Converted HFC to FTTH,2019-04-12,2025-04-08,2035-04-08,10,0,1000,57.31,0
+C0120,Eagle Park,SFL,HOA - Single Family,365,Native FTTH,,2022-03-02,2032-03-02,10,0,300,54.71,0
+C0121,Sabal Pointe,SFL,Master-Planned New Construction,826,Native FTTH,,2024-06-28,2029-06-28,5,1,1000,64.47,1
+C0122,Tortoise Park,SFL,HOA - Single Family,148,Native FTTH,,2019-07-13,2029-07-13,10,0,500,57.72,1
+C0123,Crescent Landing,SFL,HOA - Single Family,380,Native FTTH,,2020-12-11,2027-12-11,7,0,500,63.07,1
+C0124,Palm Landing,SFL,COA - Condominium,277,Converted HFC to FTTH,2022-12-15,2025-03-10,2032-03-10,7,0,500,64.33,0
+C0125,Egret Landing,SFL,55+ Active Adult,108,Native FTTH,,2022-12-14,2032-12-14,10,0,300,45.33,0
+C0126,Coral Reserve,SFL,HOA - Single Family,166,Native FTTH,,2021-05-26,2028-05-26,7,0,1000,76.21,0
+C0127,Seagrape Isles,SFL,Master-Planned New Construction,291,Native FTTH,,2024-04-01,2029-04-01,5,0,500,63.87,0
+C0128,Silver Lake Shores,SFL,HOA - Single Family,381,Converted HFC to FTTH,2020-03-10,2023-09-03,2028-09-03,5,0,300,54.04,0
+C0129,Egret Park,SFL,COA - Condominium,207,Native FTTH,,2020-12-14,2027-12-14,7,0,300,49.6,1
+C0130,Harbor Shores,SFL,COA - Condominium,1079,Native FTTH,,2018-02-15,2028-02-15,10,0,500,58.94,0
+C0131,Sabal Reserve,SFL,55+ Active Adult,177,Converted HFC to FTTH,2025-06-01,2020-02-25,2027-02-25,7,0,300,58.54,1
+C0132,Seagrape Shores,SFL,HOA - Single Family,108,Converted HFC to FTTH,2020-06-29,2023-10-27,2028-10-27,5,1,1000,64.25,0
+C0133,Seagrape Preserve,SFL,HOA - Single Family,263,Native FTTH,,2023-03-30,2028-03-30,5,1,500,53.53,1
+C0134,Sandpiper Bend,SFL,55+ Active Adult,705,Native FTTH,,2022-09-21,2027-09-21,5,0,500,60.97,0
+C0135,Silver Lake Bend,SFL,55+ Active Adult,353,Native FTTH,,2020-04-12,2027-04-12,7,0,500,53.45,1
+C0136,Coral Crossing,SFL,HOA - Single Family,328,Legacy HFC,,2023-10-30,2033-10-30,10,0,300,50.57,0
+C0137,Seagrape Hammock,SFL,HOA - Single Family,183,Converted HFC to FTTH,2023-08-18,2024-07-20,2029-07-20,5,1,1000,61.75,0
+C0138,Cedar Lakes,SFL,55+ Active Adult,211,Legacy HFC,,2024-06-17,2031-06-17,7,0,300,53.19,0
+C0139,Palm Preserve,SFL,COA - Condominium,324,Native FTTH,,2024-01-01,2034-01-01,10,0,300,45.8,0
+C0140,Silver Lake Crossing,SFL,Multifamily / Apartment,77,Native FTTH,,2020-12-25,2027-12-25,7,0,500,61.73,0
+C0141,Magnolia Estates,SFL,55+ Active Adult,707,Native FTTH,,2025-02-03,2030-02-03,5,0,500,63.51,0
+C0142,Egret Pointe,SFL,HOA - Single Family,332,Converted HFC to FTTH,2025-02-01,2022-01-08,2029-01-08,7,0,1000,62.72,0
+C0143,Mangrove Reserve,SFL,HOA - Single Family,273,Converted HFC to FTTH,2020-07-03,2019-07-18,2029-07-18,10,0,1000,65.59,0
+C0144,Seagrape Estates,SFL,HOA - Single Family,136,Converted HFC to FTTH,2025-10-01,2022-11-07,2027-11-07,5,1,1000,59.85,0
+C0145,Ibis Shores,SFL,COA - Condominium,153,Native FTTH,,2023-08-20,2028-08-20,5,1,500,50.83,1
+C0146,Laurel Isles,SFL,COA - Condominium,259,Converted HFC to FTTH,2025-06-01,2023-08-06,2030-08-06,7,0,500,59.88,1
+C0147,Live Oak Shores,SFL,HOA - Single Family,236,Converted HFC to FTTH,2020-12-21,2020-07-09,2030-07-09,10,0,1000,66.97,0
+C0148,Manatee Landing,SFL,COA - Condominium,301,Converted HFC to FTTH,2022-05-05,2021-06-27,2028-06-27,7,0,300,49.85,0
+C0149,Harbor Lakes,SFL,HOA - Single Family,65,Converted HFC to FTTH,2025-03-01,2024-03-22,2029-03-22,5,0,300,44.26,0
+C0150,Orchid Cove,SFL,Master-Planned New Construction,84,Native FTTH,,2023-12-03,2028-12-03,5,1,300,55.93,0
+C0151,Silver Lake Commons,TCO,55+ Active Adult,486,Converted HFC to FTTH,2022-10-22,2022-11-24,2032-11-24,10,0,500,58.5,0
+C0152,Cedar Village,TCO,HOA - Single Family,390,Legacy HFC,,2026-09-01,2036-09-01,10,1,300,52.5,0
+C0153,Ibis Cove,TCO,Master-Planned New Construction,169,Native FTTH,,2026-09-27,2036-09-27,10,1,300,45.41,0
+C0154,Banyan Preserve,TCO,COA - Condominium,469,Legacy HFC,,2023-02-10,2030-02-10,7,0,300,56.33,0
+C0155,Orchid Park,TCO,Multifamily / Apartment,136,Native FTTH,,2017-06-13,2027-06-13,10,0,300,56.67,0
+C0156,Stone Estates,TCO,HOA - Single Family,157,Native FTTH,,2022-02-17,2032-02-17,10,0,1000,67.13,0
+C0157,Palm Park,TCO,55+ Active Adult,446,Converted HFC to FTTH,2026-04-01,2024-01-26,2031-01-26,7,1,500,59.83,0
+C0158,Bluewater Pointe,TCO,HOA - Single Family,354,Converted HFC to FTTH,2022-09-09,2021-12-17,2026-12-17,5,0,1000,63.5,0
+C0159,Cedar Preserve,TCO,HOA - Single Family,177,Converted HFC to FTTH,2020-05-18,2024-10-02,2034-10-02,10,0,300,53.41,0
+C0160,Laurel Landing,TCO,Master-Planned New Construction,197,Native FTTH,,2025-09-18,2030-09-18,5,1,1000,63.26,0
+C0161,Lantana Bend,TCO,Master-Planned New Construction,144,Native FTTH,,2022-06-04,2032-06-04,10,0,1000,64.3,0
+C0162,Sabal Shores,TCO,55+ Active Adult,473,Converted HFC to FTTH,2022-12-12,2022-02-09,2027-02-09,5,1,500,57.94,0
+C0163,Mangrove Commons,TCO,Master-Planned New Construction,392,Native FTTH,,2021-01-06,2028-01-06,7,0,500,57.43,0
+C0164,Lantana Commons,TCO,COA - Condominium,80,Converted HFC to FTTH,2022-09-11,2017-11-25,2027-11-25,10,0,500,55.48,0
+C0165,Crescent Shores,TCO,Master-Planned New Construction,78,Native FTTH,,2024-08-16,2029-08-16,5,0,300,51.68,0
+C0166,Hibiscus Park,TCO,HOA - Single Family,335,Native FTTH,,2024-10-12,2031-10-12,7,1,300,54.94,0
+C0167,Mangrove Run,TCO,HOA - Single Family,122,Converted HFC to FTTH,2025-01-01,2025-04-26,2030-04-26,5,1,1000,68.58,0
+C0168,Pelican Pointe,TCO,HOA - Single Family,223,Converted HFC to FTTH,2021-08-17,2024-04-04,2031-04-04,7,0,1000,63.92,0
+C0169,Harbor Reserve,TCO,HOA - Single Family,267,Legacy HFC,,2023-04-14,2028-04-14,5,1,300,53.97,0
+C0170,Fox Trace,TCO,HOA - Single Family,101,Native FTTH,,2018-09-07,2028-09-07,10,0,1000,70.02,0
+C0171,Fox Bend,TCO,HOA - Single Family,360,Converted HFC to FTTH,2026-05-01,2023-06-30,2033-06-30,10,0,500,53.02,0
+C0172,Cypress Park,TCO,55+ Active Adult,555,Converted HFC to FTTH,2023-02-10,2024-07-14,2031-07-14,7,0,1000,61.76,0
+C0173,Juniper Preserve,TCO,COA - Condominium,297,Converted HFC to FTTH,2022-03-03,2021-03-07,2031-03-07,10,0,1000,72.89,0
+C0174,Hibiscus Village,TCO,HOA - Single Family,271,Converted HFC to FTTH,2019-09-04,2023-02-11,2028-02-11,5,0,500,49.96,0
+C0175,Harbor Run,TCO,55+ Active Adult,1868,Converted HFC to FTTH,2026-01-01,2020-02-02,2027-02-02,7,0,500,63.49,0
+C0176,Cedar Pointe,TCO,HOA - Single Family,329,Legacy HFC,,2018-07-03,2028-07-03,10,0,500,59.28,0
+C0177,Tortoise Shores,TCO,COA - Condominium,404,Native FTTH,,2024-11-23,2029-11-23,5,0,300,54.07,0
+C0178,Pelican Lakes,TCO,COA - Condominium,208,Native FTTH,,2024-08-27,2031-08-27,7,1,1000,63.0,0
+C0179,Sandpiper Commons,TCO,COA - Condominium,340,Native FTTH,,2023-01-17,2030-01-17,7,0,500,49.16,0
+C0180,Silver Lake Estates,TCO,HOA - Single Family,590,Native FTTH,,2019-03-14,2029-03-14,10,0,1000,62.49,0
+C0181,Laurel Bend,TCO,HOA - Single Family,205,Legacy HFC,,2019-11-28,2026-11-28,7,0,300,55.05,0
+C0182,Palm Cove,TCO,Master-Planned New Construction,74,Native FTTH,,2024-03-12,2034-03-12,10,0,300,46.12,0
+C0183,Tarpon Preserve,TCO,HOA - Single Family,254,Converted HFC to FTTH,2021-06-08,2025-11-27,2032-11-27,7,1,300,48.27,0
+C0184,Tarpon Trace,TCO,HOA - Single Family,326,Native FTTH,,2023-04-03,2030-04-03,7,1,500,62.17,0
+C0185,Harbor Village,TCO,HOA - Single Family,251,Converted HFC to FTTH,2026-02-01,2022-12-22,2027-12-22,5,0,300,51.38,0
+C0186,Sawgrass Park,TCO,HOA - Single Family,269,Converted HFC to FTTH,2023-02-09,2021-06-11,2028-06-11,7,0,300,45.47,0
+C0187,Tarpon Reserve,TCO,HOA - Single Family,201,Native FTTH,,2026-02-06,2031-02-06,5,2,1000,59.25,0
+C0188,Fox Hammock,TCO,55+ Active Adult,104,Converted HFC to FTTH,2024-06-22,2024-06-17,2031-06-17,7,1,1000,66.96,0
+C0189,Lantana Isles,TCO,HOA - Single Family,286,Converted HFC to FTTH,2026-05-01,2024-04-05,2031-04-05,7,0,1000,68.82,0
+C0190,Tortoise Run,TCO,COA - Condominium,106,Converted HFC to FTTH,2021-05-23,2022-11-26,2032-11-26,10,0,300,53.14,0
+C0191,Sandpiper Isles,TCO,Multifamily / Apartment,336,Legacy HFC,,2025-09-28,2032-09-28,7,1,300,58.72,0
+C0192,Tortoise Trace,TCO,Master-Planned New Construction,109,Native FTTH,,2022-09-12,2027-09-12,5,0,1000,65.03,0
+C0193,Eagle Cove,TCO,HOA - Single Family,175,Native FTTH,,2024-03-11,2031-03-11,7,0,500,59.58,0
+C0194,Hibiscus Preserve,TCO,HOA - Single Family,219,Native FTTH,,2023-07-24,2028-07-24,5,1,300,43.92,0
+C0195,Pelican Trace,TCO,Multifamily / Apartment,1013,Converted HFC to FTTH,2026-01-01,2019-11-26,2029-11-26,10,0,500,66.07,0
+C0196,Magnolia Ridge,TCO,HOA - Single Family,314,Legacy HFC,,2023-07-22,2030-07-22,7,1,300,51.69,0
+C0197,Stone Park,TCO,Master-Planned New Construction,164,Native FTTH,,2023-08-29,2028-08-29,5,1,1000,74.4,0
+C0198,Sabal Village,TCO,Multifamily / Apartment,180,Native FTTH,,2023-10-29,2028-10-29,5,0,1000,69.44,0
+C0199,Willow Village,TCO,COA - Condominium,158,Native FTTH,,2025-11-02,2030-11-02,5,1,300,50.21,0
+C0200,Osprey Crossing,TCO,Multifamily / Apartment,146,Legacy HFC,,2024-06-25,2029-06-25,5,1,300,50.97,0
+C0201,Sandpiper Cove,TCO,HOA - Single Family,1271,Converted HFC to FTTH,2025-02-01,2017-03-22,2027-03-22,10,0,1000,65.96,0
+C0202,Egret Lakes,TCO,Multifamily / Apartment,397,Converted HFC to FTTH,2026-02-01,2022-10-05,2027-10-05,5,0,300,59.44,0
+C0203,Hibiscus Reserve,TCO,HOA - Single Family,756,Legacy HFC,,2026-04-07,2031-04-07,5,2,500,62.37,0
+C0204,Pelican Bend,TCO,COA - Condominium,162,Converted HFC to FTTH,2026-03-01,2023-04-09,2033-04-09,10,0,300,55.63,0
+C0205,Manatee Cove,TCO,HOA - Single Family,195,Converted HFC to FTTH,2022-03-08,2025-07-28,2032-07-28,7,1,300,56.36,0
+C0206,Tarpon Lakes,TCO,COA - Condominium,528,Converted HFC to FTTH,2020-01-25,2024-08-29,2029-08-29,5,1,500,58.32,0
+C0207,Manatee Trace,TCO,55+ Active Adult,691,Converted HFC to FTTH,2022-07-27,2020-04-25,2027-04-25,7,0,300,55.52,0
+C0208,Stone Landing,TCO,COA - Condominium,418,Native FTTH,,2022-04-04,2027-04-04,5,1,300,50.94,0
+C0209,Mangrove Hammock,TCO,Multifamily / Apartment,218,Legacy HFC,,2026-08-28,2031-08-28,5,2,500,61.97,0
+C0210,Bay Pointe,TCO,HOA - Single Family,511,Converted HFC to FTTH,2022-04-29,2022-11-24,2027-11-24,5,1,1000,67.29,0
+C0211,Bay Crossing,TCO,COA - Condominium,259,Native FTTH,,2023-04-18,2028-04-18,5,1,500,62.45,0
+C0212,Magnolia Preserve,TCO,55+ Active Adult,137,Converted HFC to FTTH,2021-12-24,2022-05-26,2027-05-26,5,0,300,56.05,0
+C0213,Tarpon Commons,TCO,COA - Condominium,263,Converted HFC to FTTH,2025-01-01,2025-05-12,2030-05-12,5,1,300,49.85,0
+C0214,Crescent Reserve,TCO,COA - Condominium,179,Converted HFC to FTTH,2022-01-24,2019-10-02,2029-10-02,10,0,500,62.53,0
+C0215,Seagrape Commons,TCO,HOA - Single Family,60,Converted HFC to FTTH,2019-08-14,2026-05-04,2036-05-04,10,1,300,50.88,0
+C0216,Crescent Lakes,TCO,COA - Condominium,337,Converted HFC to FTTH,2025-10-01,2022-12-23,2029-12-23,7,0,1000,64.1,0
+C0217,Cypress Trace,TCO,55+ Active Adult,300,Converted HFC to FTTH,2022-01-03,2020-11-03,2030-11-03,10,0,500,56.78,0
+C0218,Coral Trace,TCO,COA - Condominium,198,Converted HFC to FTTH,2026-04-01,2024-11-13,2029-11-13,5,0,1000,66.2,0
+C0219,Manatee Village,TCO,HOA - Single Family,151,Native FTTH,,2020-04-24,2030-04-24,10,0,500,60.76,0
+C0220,Bay Lakes,TCO,Master-Planned New Construction,100,Native FTTH,,2026-08-14,2033-08-14,7,1,1000,72.35,0
+C0221,Tarpon Cove,TCO,HOA - Single Family,123,Converted HFC to FTTH,2023-08-26,2022-12-05,2029-12-05,7,0,300,50.28,0
+C0222,Pelican Crossing,TCO,HOA - Single Family,346,Native FTTH,,2021-02-26,2028-02-26,7,0,300,48.05,0
+C0223,Stone Isles,TCO,HOA - Single Family,312,Native FTTH,,2023-06-01,2030-06-01,7,0,500,60.78,0
+C0224,Tortoise Preserve,TCO,HOA - Single Family,203,Native FTTH,,2021-06-23,2028-06-23,7,0,500,58.75,0
+C0225,Live Oak Reserve,TCO,55+ Active Adult,219,Legacy HFC,,2022-03-20,2027-03-20,5,1,300,55.66,0
+C0226,Sabal Hammock,TCO,Master-Planned New Construction,85,Native FTTH,,2023-05-01,2033-05-01,10,0,300,55.7,0
+C0227,Laurel Lakes,TCO,55+ Active Adult,288,Converted HFC to FTTH,2025-12-01,2021-01-16,2031-01-16,10,0,500,62.28,0
+C0228,Cypress Lakes,TCO,COA - Condominium,355,Legacy HFC,,2022-08-15,2027-08-15,5,0,500,54.12,0
+C0229,Sandpiper Park,TCO,HOA - Single Family,117,Native FTTH,,2023-02-17,2030-02-17,7,0,1000,67.22,0
+C0230,Pelican Landing,TCO,HOA - Single Family,608,Legacy HFC,,2024-10-29,2029-10-29,5,0,300,52.32,0
+C0231,Silver Lake Park,TCO,HOA - Single Family,223,Legacy HFC,,2021-03-24,2028-03-24,7,0,300,51.52,0
+C0232,Magnolia Shores,TCO,HOA - Single Family,163,Converted HFC to FTTH,2019-01-10,2024-05-26,2031-05-26,7,1,500,59.82,0
+C0233,Stone Trace,TCO,COA - Condominium,417,Converted HFC to FTTH,2020-01-16,2024-12-20,2034-12-20,10,0,300,47.22,0
+C0234,Banyan Crossing,TCO,COA - Condominium,404,Legacy HFC,,2025-05-06,2032-05-06,7,1,500,51.47,0
+C0235,Palm Estates,TCO,COA - Condominium,155,Native FTTH,,2023-01-18,2030-01-18,7,1,1000,67.07,0
+C0236,Juniper Landing,TCO,Master-Planned New Construction,178,Native FTTH,,2022-08-15,2027-08-15,5,1,500,62.06,0
+C0237,Cypress Ridge,TCO,HOA - Single Family,724,Native FTTH,,2017-03-26,2027-03-26,10,0,300,54.61,0
+C0238,Manatee Park,TCO,55+ Active Adult,420,Native FTTH,,2017-01-29,2027-01-29,10,0,1000,74.94,0
+C0239,Fox Shores,TCO,HOA - Single Family,208,Native FTTH,,2024-01-20,2031-01-20,7,1,300,55.13,0
+C0240,Hibiscus Crossing,TCO,HOA - Single Family,236,Legacy HFC,,2023-11-05,2028-11-05,5,1,500,57.36,0
+C0241,Pelican Hammock,TCO,HOA - Single Family,133,Legacy HFC,,2025-07-28,2030-07-28,5,1,500,60.84,0
+C0242,Sabal Commons,TCO,HOA - Single Family,377,Native FTTH,,2017-11-28,2027-11-28,10,0,500,51.68,0
+C0243,Live Oak Village,TCO,HOA - Single Family,306,Converted HFC to FTTH,2025-05-01,2023-04-23,2033-04-23,10,0,500,54.28,0
+C0244,Ibis Estates,TCO,HOA - Single Family,264,Native FTTH,,2022-06-25,2029-06-25,7,0,500,59.04,0
+C0245,Mangrove Pointe,TCO,HOA - Single Family,446,Converted HFC to FTTH,2020-07-06,2026-09-22,2031-09-22,5,2,1000,60.0,0
+C0246,Lantana Trace,TCO,COA - Condominium,118,Native FTTH,,2023-02-23,2028-02-23,5,0,500,48.92,0
+C0247,Eagle Commons,TCO,HOA - Single Family,283,Legacy HFC,,2023-05-15,2028-05-15,5,0,300,51.2,0
+C0248,Heron Pointe,TCO,55+ Active Adult,328,Native FTTH,,2023-12-30,2028-12-30,5,0,1000,66.38,0
+C0249,Sawgrass Preserve,TCO,Multifamily / Apartment,197,Native FTTH,,2025-04-19,2030-04-19,5,0,500,53.58,0
+C0250,Bay Shores,TCO,COA - Condominium,186,Native FTTH,,2024-06-16,2029-06-16,5,0,300,54.75,0
+C0251,Live Oak Cove,TCO,Multifamily / Apartment,370,Converted HFC to FTTH,2019-12-21,2023-06-02,2028-06-02,5,1,1000,62.7,0
+C0252,Juniper Run,TCO,55+ Active Adult,1145,Converted HFC to FTTH,2026-03-01,2022-05-10,2027-05-10,5,0,500,60.92,0
+C0253,Cedar Cove,TCO,Master-Planned New Construction,423,Native FTTH,,2024-10-21,2029-10-21,5,0,500,65.51,0
+C0254,Bay Preserve,TCO,Multifamily / Apartment,181,Legacy HFC,,2019-01-25,2029-01-25,10,0,500,55.23,0
+C0255,Live Oak Bend,TCO,Multifamily / Apartment,542,Native FTTH,,2022-08-13,2029-08-13,7,0,300,53.31,0
+C0256,Ibis Ridge,TCO,Multifamily / Apartment,561,Converted HFC to FTTH,2026-04-01,2025-11-20,2032-11-20,7,1,1000,67.77,0
+C0257,Pelican Isles,TCO,Master-Planned New Construction,206,Native FTTH,,2024-06-02,2031-06-02,7,1,300,53.93,0
+C0258,Bay Village,TCO,Multifamily / Apartment,250,Converted HFC to FTTH,2025-07-01,2023-03-29,2028-03-29,5,0,300,49.66,0
+C0259,Sawgrass Isles,TCO,55+ Active Adult,1054,Converted HFC to FTTH,2025-09-01,2021-12-14,2026-12-14,5,1,500,56.0,0
+C0260,Egret Hammock,TCO,COA - Condominium,130,Legacy HFC,,2020-01-03,2027-01-03,7,0,300,48.7,0
+C0261,Crescent Pointe,CFL,HOA - Single Family,376,Native FTTH,,2020-03-28,2030-03-28,10,0,300,51.38,1
+C0262,Heron Ridge,CFL,COA - Condominium,111,Converted HFC to FTTH,2025-05-01,2023-09-10,2028-09-10,5,0,300,51.76,0
+C0263,Coral Commons,CFL,COA - Condominium,232,Converted HFC to FTTH,2019-11-23,2023-03-12,2030-03-12,7,0,500,57.42,1
+C0264,Tarpon Hammock,CFL,Multifamily / Apartment,189,Native FTTH,,2023-03-23,2030-03-23,7,0,300,48.32,0
+C0265,Sabal Preserve,CFL,55+ Active Adult,187,Native FTTH,,2023-10-23,2028-10-23,5,1,500,56.47,0
+C0266,Hibiscus Isles,CFL,Multifamily / Apartment,278,Converted HFC to FTTH,2024-01-19,2024-06-18,2031-06-18,7,1,1000,68.59,0
+C0267,Juniper Pointe,CFL,COA - Condominium,227,Converted HFC to FTTH,2020-08-26,2022-05-18,2032-05-18,10,0,300,51.28,1
+C0268,Tortoise Estates,CFL,COA - Condominium,290,Converted HFC to FTTH,2020-12-26,2018-12-23,2028-12-23,10,0,1000,64.87,0
+C0269,Coral Lakes,CFL,COA - Condominium,696,Converted HFC to FTTH,2025-04-01,2025-02-18,2030-02-18,5,1,300,53.63,0
+C0270,Sawgrass Run,CFL,HOA - Single Family,123,Converted HFC to FTTH,2025-03-01,2026-01-31,2033-01-31,7,1,1000,62.11,0
+C0271,Banyan Shores,CFL,HOA - Single Family,109,Converted HFC to FTTH,2022-11-13,2024-10-25,2034-10-25,10,0,500,59.83,0
+C0272,Seagrape Trace,CFL,COA - Condominium,146,Converted HFC to FTTH,2024-04-02,2020-10-25,2027-10-25,7,0,1000,68.05,0
+C0273,Lantana Preserve,CFL,COA - Condominium,278,Legacy HFC,,2023-11-01,2028-11-01,5,1,300,53.39,1
+C0274,Juniper Crossing,CFL,Multifamily / Apartment,315,Native FTTH,,2023-11-26,2028-11-26,5,0,500,57.78,1
+C0275,Eagle Hammock,CFL,55+ Active Adult,1161,Converted HFC to FTTH,2024-06-15,2026-08-08,2031-08-08,5,2,300,45.87,0
+C0276,Banyan Lakes,CFL,COA - Condominium,103,Legacy HFC,,2023-05-19,2030-05-19,7,0,300,49.93,0
+C0277,Pelican Park,CFL,Multifamily / Apartment,155,Converted HFC to FTTH,2020-06-21,2021-09-15,2031-09-15,10,0,500,53.0,0
+C0278,Coral Hammock,CFL,Master-Planned New Construction,504,Native FTTH,,2022-02-13,2027-02-13,5,1,500,60.8,0
+C0279,Manatee Pointe,CFL,HOA - Single Family,148,Converted HFC to FTTH,2025-03-01,2021-09-05,2031-09-05,10,0,500,64.93,0
+C0280,Laurel Commons,CFL,Master-Planned New Construction,116,Native FTTH,,2022-10-05,2027-10-05,5,0,1000,57.99,0
+C0281,Sawgrass Crossing,CFL,Multifamily / Apartment,187,Converted HFC to FTTH,2023-11-14,2025-06-25,2030-06-25,5,1,1000,67.23,0
+C0282,Banyan Isles,CFL,HOA - Single Family,174,Native FTTH,,2021-10-15,2028-10-15,7,0,300,50.82,0
+C0283,Orchid Estates,CFL,COA - Condominium,525,Native FTTH,,2023-02-10,2033-02-10,10,0,300,46.99,0
+C0284,Mangrove Trace,CFL,COA - Condominium,185,Native FTTH,,2022-10-27,2029-10-27,7,0,300,49.45,0
+C0285,Willow Shores,CFL,55+ Active Adult,264,Legacy HFC,,2021-07-07,2031-07-07,10,0,300,51.06,0
+C0286,Crescent Crossing,CFL,HOA - Single Family,112,Converted HFC to FTTH,2020-10-09,2026-08-10,2033-08-10,7,1,500,55.07,0
+C0287,Banyan Reserve,CFL,Multifamily / Apartment,216,Converted HFC to FTTH,2020-09-27,2024-03-10,2029-03-10,5,1,1000,67.66,0
+C0288,Sawgrass Pointe,CFL,Multifamily / Apartment,108,Legacy HFC,,2022-08-24,2027-08-24,5,1,300,54.57,0
+C0289,Magnolia Run,CFL,HOA - Single Family,60,Converted HFC to FTTH,2026-04-01,2022-10-03,2032-10-03,10,0,300,51.22,0
+C0290,Bluewater Cove,CFL,55+ Active Adult,630,Native FTTH,,2024-05-11,2029-05-11,5,0,300,50.2,0
+C0291,Osprey Hammock,CFL,HOA - Single Family,78,Converted HFC to FTTH,2023-12-14,2026-10-24,2036-10-24,10,1,500,61.8,1
+C0292,Osprey Preserve,CFL,Master-Planned New Construction,94,Native FTTH,,2020-08-13,2027-08-13,7,0,1000,70.48,0
+C0293,Juniper Isles,CFL,HOA - Single Family,352,Native FTTH,,2020-06-24,2027-06-24,7,0,1000,67.82,0
+C0294,Bluewater Bend,CFL,HOA - Single Family,327,Converted HFC to FTTH,2025-12-01,2021-11-29,2028-11-29,7,0,500,60.44,0
+C0295,Magnolia Lakes,CFL,COA - Condominium,254,Legacy HFC,,2023-09-13,2028-09-13,5,1,300,51.32,0
+C0296,Magnolia Cove,CFL,HOA - Single Family,133,Converted HFC to FTTH,2023-08-25,2023-12-01,2028-12-01,5,1,1000,64.52,0
+C0297,Willow Reserve,CFL,HOA - Single Family,248,Converted HFC to FTTH,2019-10-23,2023-07-31,2030-07-31,7,0,500,67.38,0
+C0298,Laurel Preserve,CFL,Multifamily / Apartment,250,Converted HFC to FTTH,2025-05-01,2024-10-19,2029-10-19,5,0,300,53.55,0
+C0299,Laurel Hammock,CFL,HOA - Single Family,236,Converted HFC to FTTH,2024-04-28,2022-09-05,2032-09-05,10,0,300,48.73,0
+C0300,Live Oak Hammock,CFL,HOA - Single Family,681,Legacy HFC,,2024-08-12,2029-08-12,5,1,300,52.78,1
+C0301,Magnolia Reserve,CFL,COA - Condominium,112,Converted HFC to FTTH,2020-09-06,2025-06-12,2032-06-12,7,1,300,56.25,0
+C0302,Lantana Landing,CFL,Master-Planned New Construction,150,Native FTTH,,2017-04-17,2027-04-17,10,0,500,54.97,0
+C0303,Egret Commons,CFL,HOA - Single Family,249,Converted HFC to FTTH,2026-05-01,2025-12-01,2032-12-01,7,1,500,55.23,0
+C0304,Ibis Village,CFL,COA - Condominium,224,Native FTTH,,2025-06-01,2030-06-01,5,1,1000,69.06,0
+C0305,Live Oak Trace,CFL,HOA - Single Family,490,Legacy HFC,,2016-11-25,2026-11-25,10,0,300,55.84,0
+C0306,Cedar Run,CFL,55+ Active Adult,502,Native FTTH,,2023-10-21,2030-10-21,7,0,500,56.93,0
+C0307,Heron Hammock,CFL,COA - Condominium,194,Converted HFC to FTTH,2022-08-21,2022-05-18,2027-05-18,5,0,1000,60.26,1
+C0308,Magnolia Isles,CFL,HOA - Single Family,238,Legacy HFC,,2025-02-11,2030-02-11,5,0,500,62.29,1
+C0309,Bay Landing,CFL,COA - Condominium,216,Converted HFC to FTTH,2019-04-01,2026-04-08,2033-04-08,7,1,1000,65.84,0
+C0310,Pelican Preserve,CFL,Multifamily / Apartment,210,Legacy HFC,,2022-03-21,2027-03-21,5,0,500,51.12,1
+C0311,Hibiscus Trace,CFL,HOA - Single Family,326,Converted HFC to FTTH,2022-10-15,2021-11-17,2026-11-17,5,1,1000,66.17,0
+C0312,Mangrove Village,CFL,55+ Active Adult,163,Native FTTH,,2023-10-01,2028-10-01,5,1,300,51.1,0
+C0313,Manatee Lakes,CFL,HOA - Single Family,138,Converted HFC to FTTH,2020-05-28,2026-07-21,2033-07-21,7,1,500,54.52,0
+C0314,Banyan Park,CFL,COA - Condominium,274,Legacy HFC,,2020-02-10,2030-02-10,10,0,300,51.83,1
+C0315,Crescent Hammock,CFL,55+ Active Adult,265,Converted HFC to FTTH,2025-04-01,2022-02-19,2027-02-19,5,0,1000,66.52,0
+C0316,Ibis Commons,CFL,COA - Condominium,320,Native FTTH,,2023-05-14,2028-05-14,5,1,1000,70.14,0
+C0317,Osprey Reserve,CFL,HOA - Single Family,287,Converted HFC to FTTH,2025-08-01,2026-10-03,2031-10-03,5,2,500,59.2,0
+C0318,Eagle Ridge,CFL,Master-Planned New Construction,308,Native FTTH,,2020-08-28,2027-08-28,7,0,500,57.87,0
+C0319,Mangrove Estates,CFL,55+ Active Adult,454,Native FTTH,,2020-12-18,2030-12-18,10,0,1000,63.17,0
+C0320,Ibis Lakes,CFL,COA - Condominium,241,Converted HFC to FTTH,2019-12-18,2024-09-16,2031-09-16,7,0,300,50.13,0
+C0321,Sandpiper Preserve,CFL,COA - Condominium,192,Converted HFC to FTTH,2025-02-01,2024-12-06,2029-12-06,5,1,500,58.27,0
+C0322,Cypress Reserve,CFL,Multifamily / Apartment,281,Converted HFC to FTTH,2024-05-16,2026-03-13,2036-03-13,10,1,1000,59.96,0
+C0323,Egret Crossing,CFL,Multifamily / Apartment,79,Legacy HFC,,2018-11-03,2028-11-03,10,0,500,55.14,0
+C0324,Palm Village,CFL,HOA - Single Family,195,Native FTTH,,2023-06-22,2030-06-22,7,0,300,53.32,1
+C0325,Heron Crossing,CFL,Master-Planned New Construction,155,Native FTTH,,2025-04-10,2030-04-10,5,0,500,65.31,0
+C0326,Magnolia Bend,CFL,HOA - Single Family,586,Native FTTH,,2026-05-03,2033-05-03,7,1,500,53.47,1
+C0327,Tortoise Commons,CFL,55+ Active Adult,1353,Legacy HFC,,2024-05-13,2034-05-13,10,0,500,63.57,1
+C0328,Heron Lakes,CFL,COA - Condominium,406,Converted HFC to FTTH,2020-06-29,2026-01-08,2031-01-08,5,2,500,58.12,0
+C0329,Seagrape Run,CFL,Multifamily / Apartment,199,Legacy HFC,,2026-10-07,2036-10-07,10,1,500,60.19,0
+C0330,Ibis Hammock,CFL,HOA - Single Family,520,Native FTTH,,2024-01-13,2031-01-13,7,0,1000,56.65,0
+C0331,Mangrove Landing,CFL,COA - Condominium,567,Converted HFC to FTTH,2025-05-01,2026-09-15,2036-09-15,10,1,1000,64.63,0
+C0332,Seagrape Village,CFL,55+ Active Adult,683,Converted HFC to FTTH,2024-06-10,2024-03-13,2031-03-13,7,1,500,57.05,0
+C0333,Lantana Ridge,CFL,HOA - Single Family,243,Legacy HFC,,2023-07-13,2030-07-13,7,0,300,54.94,0
+C0334,Bluewater Estates,CFL,COA - Condominium,136,Native FTTH,,2023-12-23,2030-12-23,7,0,500,54.01,0
+C0335,Seagrape Ridge,CFL,HOA - Single Family,207,Legacy HFC,,2024-10-05,2029-10-05,5,1,300,54.46,0
+C0336,Heron Run,CFL,HOA - Single Family,395,Converted HFC to FTTH,2022-09-19,2023-01-18,2028-01-18,5,0,500,54.42,1
+C0337,Tortoise Cove,CFL,HOA - Single Family,321,Converted HFC to FTTH,2021-09-28,2021-10-26,2028-10-26,7,0,1000,69.71,0
+C0338,Banyan Ridge,CFL,HOA - Single Family,155,Legacy HFC,,2020-05-23,2027-05-23,7,0,300,50.65,0
+C0339,Tarpon Estates,CFL,Multifamily / Apartment,431,Native FTTH,,2024-01-08,2031-01-08,7,0,1000,68.15,0
+C0340,Lantana Estates,CFL,HOA - Single Family,132,Converted HFC to FTTH,2023-09-08,2023-04-06,2028-04-06,5,1,300,48.96,0
+C0341,Hibiscus Landing,CFL,HOA - Single Family,569,Converted HFC to FTTH,2025-10-01,2023-11-23,2030-11-23,7,0,500,53.35,1
+C0342,Cedar Reserve,CFL,HOA - Single Family,485,Converted HFC to FTTH,2023-07-18,2022-11-24,2027-11-24,5,0,500,58.55,1
+C0343,Ibis Reserve,CFL,55+ Active Adult,672,Legacy HFC,,2021-12-28,2026-12-28,5,0,300,54.94,0
+C0344,Egret Run,CFL,HOA - Single Family,64,Converted HFC to FTTH,2025-04-01,2023-09-11,2028-09-11,5,1,500,62.09,0
+C0345,Ibis Pointe,CFL,HOA - Single Family,184,Native FTTH,,2023-10-19,2030-10-19,7,0,1000,63.8,1
+C0346,Fox Run,CFL,COA - Condominium,210,Converted HFC to FTTH,2025-06-01,2024-08-30,2031-08-30,7,0,500,59.68,0
+C0347,Sabal Trace,CFL,55+ Active Adult,276,Converted HFC to FTTH,2020-09-06,2026-01-08,2033-01-08,7,1,300,49.16,1
+C0348,Sawgrass Trace,CFL,HOA - Single Family,550,Native FTTH,,2026-03-24,2031-03-24,5,2,500,57.98,0
+C0349,Heron Trace,CFL,Master-Planned New Construction,891,Native FTTH,,2020-01-09,2027-01-09,7,0,1000,68.8,0
+C0350,Stone Preserve,CFL,55+ Active Adult,481,Native FTTH,,2023-01-01,2028-01-01,5,1,300,52.64,1
+C0351,Laurel Run,SWF,HOA - Single Family,286,Converted HFC to FTTH,2019-06-18,2021-04-20,2028-04-20,7,0,300,54.21,0
+C0352,Laurel Ridge,SWF,COA - Condominium,308,Legacy HFC,,2024-08-28,2029-08-28,5,0,300,52.81,1
+C0353,Sawgrass Commons,SWF,55+ Active Adult,240,Converted HFC to FTTH,2025-10-01,2022-10-15,2027-10-15,5,0,500,60.7,1
+C0354,Ibis Park,SWF,55+ Active Adult,1206,Converted HFC to FTTH,2026-02-01,2024-12-25,2031-12-25,7,1,500,64.93,0
+C0355,Bluewater Village,SWF,Multifamily / Apartment,199,Converted HFC to FTTH,2020-08-09,2026-10-21,2031-10-21,5,2,500,53.72,1
+C0356,Hibiscus Commons,SWF,55+ Active Adult,417,Legacy HFC,,2022-08-13,2027-08-13,5,1,300,54.29,0
+C0357,Willow Commons,SWF,55+ Active Adult,305,Legacy HFC,,2022-12-19,2032-12-19,10,0,300,47.97,0
+C0358,Tortoise Ridge,SWF,Multifamily / Apartment,364,Converted HFC to FTTH,2023-12-29,2021-08-07,2028-08-07,7,0,300,51.03,0
+C0359,Sabal Cove,SWF,Multifamily / Apartment,248,Converted HFC to FTTH,2022-01-11,2019-06-16,2029-06-16,10,0,300,52.05,1
+C0360,Silver Lake Pointe,SWF,COA - Condominium,129,Legacy HFC,,2020-01-01,2030-01-01,10,0,300,56.5,0
+C0361,Palm Reserve,SWF,HOA - Single Family,220,Native FTTH,,2026-03-09,2036-03-09,10,1,1000,55.65,1
+C0362,Tortoise Hammock,SWF,Multifamily / Apartment,239,Converted HFC to FTTH,2026-01-01,2019-06-08,2029-06-08,10,0,500,57.15,0
+C0363,Stone Cove,SWF,Master-Planned New Construction,411,Native FTTH,,2023-01-21,2030-01-21,7,0,500,57.18,0
+C0364,Lantana Hammock,SWF,COA - Condominium,439,Converted HFC to FTTH,2023-11-13,2023-05-14,2028-05-14,5,0,500,61.34,1
+C0365,Cedar Landing,SWF,55+ Active Adult,180,Converted HFC to FTTH,2021-09-22,2023-05-19,2033-05-19,10,0,300,51.58,0
+C0366,Banyan Hammock,SWF,COA - Condominium,92,Native FTTH,,2017-12-31,2027-12-31,10,0,300,51.62,0
+C0367,Ibis Landing,SWF,COA - Condominium,124,Converted HFC to FTTH,2022-09-02,2022-02-04,2027-02-04,5,0,500,56.2,0
+C0368,Eagle Run,SWF,55+ Active Adult,366,Converted HFC to FTTH,2025-12-01,2023-01-04,2033-01-04,10,0,500,54.81,0
+C0369,Eagle Pointe,SWF,55+ Active Adult,864,Native FTTH,,2020-08-16,2027-08-16,7,0,300,46.67,0
+C0370,Juniper Ridge,SWF,HOA - Single Family,60,Converted HFC to FTTH,2023-12-07,2022-08-24,2027-08-24,5,1,1000,63.73,0
+C0371,Mangrove Isles,SWF,COA - Condominium,191,Converted HFC to FTTH,2019-07-13,2022-10-25,2027-10-25,5,0,300,50.5,0
+C0372,Crescent Commons,SWF,HOA - Single Family,429,Converted HFC to FTTH,2025-08-01,2022-12-08,2027-12-08,5,0,500,62.93,1
+C0373,Willow Pointe,SWF,Multifamily / Apartment,276,Converted HFC to FTTH,2025-10-01,2019-02-18,2029-02-18,10,0,500,61.61,0
+C0374,Stone Village,SWF,55+ Active Adult,318,Converted HFC to FTTH,2024-03-17,2024-03-17,2029-03-17,5,0,1000,61.21,0
+C0375,Live Oak Isles,SWF,HOA - Single Family,352,Legacy HFC,,2025-08-10,2030-08-10,5,1,300,53.16,0
+C0376,Heron Cove,SWF,HOA - Single Family,377,Converted HFC to FTTH,2024-04-15,2025-03-17,2032-03-17,7,0,1000,67.19,0
+C0377,Mangrove Ridge,SWF,COA - Condominium,344,Legacy HFC,,2021-02-23,2031-02-23,10,0,300,55.14,1
+C0378,Cypress Commons,SWF,HOA - Single Family,69,Converted HFC to FTTH,2023-06-05,2019-03-22,2029-03-22,10,0,500,56.33,0
+C0379,Sabal Run,SWF,Master-Planned New Construction,480,Native FTTH,,2024-01-16,2031-01-16,7,0,1000,66.31,1
+C0380,Stone Lakes,SWF,Master-Planned New Construction,135,Native FTTH,,2024-12-29,2034-12-29,10,0,500,64.34,0
+C0381,Fox Village,SWF,COA - Condominium,613,Native FTTH,,2022-08-04,2027-08-04,5,1,1000,71.22,0
+C0382,Bay Commons,SWF,55+ Active Adult,328,Converted HFC to FTTH,2019-01-10,2024-03-03,2031-03-03,7,1,500,52.88,0
+C0383,Harbor Landing,SWF,COA - Condominium,412,Legacy HFC,,2024-01-24,2029-01-24,5,0,300,51.6,1
+C0384,Banyan Estates,SWF,Master-Planned New Construction,601,Native FTTH,,2025-03-11,2030-03-11,5,1,500,53.51,0
+C0385,Harbor Estates,SWF,COA - Condominium,266,Legacy HFC,,2023-07-20,2028-07-20,5,0,300,55.0,0
+C0386,Live Oak Pointe,SWF,COA - Condominium,141,Converted HFC to FTTH,2026-05-01,2021-04-10,2031-04-10,10,0,500,51.04,0
+C0387,Eagle Estates,SWF,HOA - Single Family,168,Converted HFC to FTTH,2021-12-02,2023-11-06,2030-11-06,7,0,500,52.83,0
+C0388,Orchid Crossing,SWF,HOA - Single Family,488,Legacy HFC,,2020-06-04,2030-06-04,10,0,300,48.33,0
+C0389,Orchid Pointe,SWF,55+ Active Adult,339,Legacy HFC,,2025-03-04,2032-03-04,7,1,500,61.1,0
+C0390,Cypress Run,SWF,Multifamily / Apartment,258,Native FTTH,,2022-08-10,2032-08-10,10,0,300,48.7,0
+C0391,Stone Ridge,SWF,COA - Condominium,73,Native FTTH,,2025-07-15,2030-07-15,5,1,1000,70.34,1
+C0392,Sandpiper Run,SWF,COA - Condominium,311,Native FTTH,,2026-08-21,2031-08-21,5,2,1000,61.4,0
+C0393,Laurel Village,SWF,55+ Active Adult,828,Converted HFC to FTTH,2023-11-19,2025-03-22,2032-03-22,7,0,500,63.37,0
+C0394,Manatee Bend,SWF,COA - Condominium,1223,Legacy HFC,,2022-12-24,2032-12-24,10,0,300,50.66,0
+C0395,Live Oak Run,SWF,55+ Active Adult,347,Converted HFC to FTTH,2019-11-30,2023-04-14,2033-04-14,10,0,500,48.63,1
+C0396,Fox Crossing,SWF,HOA - Single Family,60,Native FTTH,,2025-03-06,2030-03-06,5,1,1000,69.05,0
+C0397,Hibiscus Shores,SWF,COA - Condominium,863,Converted HFC to FTTH,2020-02-13,2020-11-16,2030-11-16,10,0,300,50.05,1
+C0398,Orchid Shores,SWF,55+ Active Adult,208,Native FTTH,,2026-02-05,2033-02-05,7,1,1000,63.88,1
+C0399,Orchid Reserve,SWF,COA - Condominium,266,Converted HFC to FTTH,2019-09-05,2022-09-29,2029-09-29,7,0,1000,60.55,0
+C0400,Sawgrass Shores,SWF,55+ Active Adult,462,Converted HFC to FTTH,2026-06-01,2023-12-23,2028-12-23,5,0,300,44.41,0
+C0401,Hibiscus Hammock,SWF,Master-Planned New Construction,346,Native FTTH,,2026-05-01,2036-05-01,10,1,1000,64.33,0
+C0402,Hibiscus Run,SWF,HOA - Single Family,89,Converted HFC to FTTH,2020-06-23,2022-03-23,2027-03-23,5,1,300,55.09,1
+C0403,Coral Village,SWF,55+ Active Adult,380,Converted HFC to FTTH,2020-06-03,2023-05-28,2028-05-28,5,1,1000,67.97,0
+C0404,Silver Lake Landing,SWF,COA - Condominium,281,Converted HFC to FTTH,2021-09-08,2026-08-18,2031-08-18,5,2,300,55.24,0
+C0405,Heron Park,SWF,HOA - Single Family,435,Native FTTH,,2021-02-14,2031-02-14,10,0,500,58.98,1
+C0406,Laurel Shores,SWF,HOA - Single Family,455,Native FTTH,,2022-10-23,2027-10-23,5,0,300,46.66,0
+C0407,Lantana Shores,SWF,COA - Condominium,69,Converted HFC to FTTH,2020-01-20,2026-10-10,2033-10-10,7,1,500,59.1,1
+C0408,Tarpon Village,SWF,Master-Planned New Construction,233,Native FTTH,,2023-01-14,2030-01-14,7,0,500,56.97,0
+C0409,Cedar Isles,SWF,COA - Condominium,93,Converted HFC to FTTH,2023-04-23,2024-05-11,2034-05-11,10,0,1000,69.74,1
+C0410,Palm Crossing,SWF,COA - Condominium,366,Converted HFC to FTTH,2020-01-01,2021-09-21,2031-09-21,10,0,300,54.68,0
+C0411,Cedar Shores,SWF,COA - Condominium,265,Converted HFC to FTTH,2026-06-01,2022-08-31,2032-08-31,10,0,500,55.46,1
+C0412,Seagrape Pointe,SWF,COA - Condominium,159,Native FTTH,,2026-03-14,2036-03-14,10,1,300,53.9,0
+C0413,Orchid Trace,SWF,COA - Condominium,256,Converted HFC to FTTH,2021-07-04,2018-07-03,2028-07-03,10,0,500,56.2,1
+C0414,Sabal Crossing,SWF,Master-Planned New Construction,282,Native FTTH,,2022-09-11,2029-09-11,7,0,1000,70.57,0
+C0415,Coral Landing,SWF,55+ Active Adult,414,Converted HFC to FTTH,2021-06-21,2020-09-09,2030-09-09,10,0,500,59.22,1
+C0416,Fox Lakes,SWF,COA - Condominium,130,Native FTTH,,2026-05-17,2031-05-17,5,2,1000,68.29,0
+C0417,Lantana Run,SWF,COA - Condominium,85,Legacy HFC,,2025-03-06,2032-03-06,7,0,300,56.14,1
+C0418,Bay Trace,SWF,Multifamily / Apartment,250,Legacy HFC,,2026-04-22,2036-04-22,10,1,300,52.14,0
+C0419,Harbor Pointe,SWF,HOA - Single Family,127,Converted HFC to FTTH,2020-02-06,2023-01-19,2030-01-19,7,0,500,64.85,0
+C0420,Osprey Run,SWF,Multifamily / Apartment,101,Native FTTH,,2022-09-04,2027-09-04,5,1,300,53.39,0
+C0421,Eagle Bend,GCS,Multifamily / Apartment,361,Converted HFC to FTTH,2025-02-01,2022-06-20,2027-06-20,5,1,300,52.36,1
+C0422,Stone Bend,GCS,55+ Active Adult,232,Native FTTH,,2020-06-29,2027-06-29,7,0,300,51.81,1
+C0423,Laurel Estates,GCS,HOA - Single Family,185,Native FTTH,,2020-12-16,2027-12-16,7,0,300,54.47,0
+C0424,Sabal Lakes,GCS,Master-Planned New Construction,115,Native FTTH,,2020-09-09,2027-09-09,7,0,500,59.11,1
+C0425,Mangrove Crossing,GCS,Master-Planned New Construction,126,Native FTTH,,2020-08-30,2027-08-30,7,0,300,48.56,0
+C0426,Willow Estates,GCS,HOA - Single Family,161,Legacy HFC,,2017-08-01,2027-08-01,10,0,300,51.24,1
+C0427,Willow Hammock,GCS,COA - Condominium,536,Converted HFC to FTTH,2019-10-24,2024-01-21,2029-01-21,5,0,500,54.66,0
+C0428,Ibis Bend,GCS,HOA - Single Family,635,Native FTTH,,2026-04-03,2031-04-03,5,2,1000,70.53,1
+C0429,Bluewater Lakes,GCS,COA - Condominium,192,Converted HFC to FTTH,2026-03-01,2024-03-21,2029-03-21,5,1,500,64.34,0
+C0430,Sabal Isles,GCS,HOA - Single Family,156,Converted HFC to FTTH,2025-07-01,2022-08-03,2029-08-03,7,0,500,63.47,0
+C0431,Live Oak Commons,GCS,55+ Active Adult,364,Converted HFC to FTTH,2019-06-30,2023-09-24,2028-09-24,5,0,300,53.01,0
+C0432,Sawgrass Lakes,GCS,Multifamily / Apartment,292,Legacy HFC,,2024-10-12,2031-10-12,7,0,500,59.74,0
+C0433,Tarpon Run,GCS,HOA - Single Family,107,Native FTTH,,2025-12-10,2032-12-10,7,1,1000,62.42,1
+C0434,Crescent Isles,GCS,HOA - Single Family,116,Native FTTH,,2023-02-04,2030-02-04,7,0,1000,69.22,0
+C0435,Banyan Run,GCS,55+ Active Adult,790,Native FTTH,,2019-01-03,2029-01-03,10,0,1000,61.18,0
+C0436,Ibis Isles,GCS,COA - Condominium,275,Native FTTH,,2022-11-09,2032-11-09,10,0,1000,65.55,0
+C0437,Orchid Preserve,GCS,Master-Planned New Construction,68,Native FTTH,,2021-12-29,2026-12-29,5,0,300,55.2,1
+C0438,Sandpiper Crossing,GCS,Master-Planned New Construction,122,Native FTTH,,2022-08-29,2027-08-29,5,1,500,61.6,0
+C0439,Fox Park,GCS,HOA - Single Family,134,Converted HFC to FTTH,2022-08-23,2025-01-24,2032-01-24,7,0,1000,73.91,1
+C0440,Silver Lake Reserve,GCS,HOA - Single Family,237,Converted HFC to FTTH,2019-08-17,2018-09-10,2028-09-10,10,0,500,55.81,0
+C0441,Juniper Bend,GCS,COA - Condominium,387,Converted HFC to FTTH,2024-04-24,2020-02-24,2030-02-24,10,0,500,57.68,1
+C0442,Stone Shores,GCS,55+ Active Adult,667,Native FTTH,,2025-03-13,2032-03-13,7,0,500,64.25,0
+C0443,Crescent Ridge,GCS,55+ Active Adult,206,Native FTTH,,2023-06-12,2030-06-12,7,0,500,58.85,0
+C0444,Egret Estates,GCS,HOA - Single Family,126,Converted HFC to FTTH,2026-03-01,2026-03-23,2031-03-23,5,1,500,56.98,0
+C0445,Palm Bend,GCS,Master-Planned New Construction,334,Native FTTH,,2022-09-13,2027-09-13,5,0,1000,66.04,0
+C0446,Juniper Village,GCS,HOA - Single Family,488,Native FTTH,,2026-06-19,2031-06-19,5,1,1000,70.93,0
+C0447,Palm Pointe,GCS,Master-Planned New Construction,543,Native FTTH,,2023-06-10,2028-06-10,5,0,500,64.95,0
+C0448,Osprey Landing,GCS,HOA - Single Family,252,Converted HFC to FTTH,2020-06-17,2021-11-17,2026-11-17,5,0,1000,61.81,0
+C0449,Banyan Cove,GCS,HOA - Single Family,555,Converted HFC to FTTH,2024-02-10,2025-04-12,2032-04-12,7,1,1000,62.99,1
+C0450,Bay Cove,GCS,HOA - Single Family,298,Legacy HFC,,2024-04-01,2029-04-01,5,1,300,52.22,0
+C0451,Eagle Landing,GCS,Master-Planned New Construction,198,Native FTTH,,2018-10-14,2028-10-14,10,0,1000,68.66,0
+C0452,Heron Shores,GCS,HOA - Single Family,185,Legacy HFC,,2023-01-16,2028-01-16,5,0,300,48.59,0
+C0453,Harbor Bend,GCS,HOA - Single Family,203,Native FTTH,,2022-11-27,2027-11-27,5,0,500,60.15,0
+C0454,Egret Bend,GCS,HOA - Single Family,291,Legacy HFC,,2023-03-21,2028-03-21,5,1,300,56.5,1
+C0455,Manatee Crossing,GCS,HOA - Single Family,463,Converted HFC to FTTH,2020-07-30,2025-01-31,2032-01-31,7,0,500,59.15,0
+C0456,Bay Hammock,GCS,COA - Condominium,205,Native FTTH,,2025-05-11,2030-05-11,5,1,1000,63.93,0
+C0457,Juniper Trace,GCS,HOA - Single Family,60,Converted HFC to FTTH,2025-12-01,2025-03-02,2030-03-02,5,1,1000,68.07,0
+C0458,Juniper Shores,GCS,Multifamily / Apartment,495,Native FTTH,,2018-04-13,2028-04-13,10,0,300,51.92,0
+C0459,Tortoise Bend,GCS,HOA - Single Family,115,Converted HFC to FTTH,2022-08-12,2022-12-31,2032-12-31,10,0,500,50.14,0
+C0460,Harbor Trace,GCS,HOA - Single Family,319,Native FTTH,,2021-08-12,2028-08-12,7,0,1000,70.86,0
+C0461,Coral Cove,GCS,55+ Active Adult,360,Converted HFC to FTTH,2025-01-01,2023-04-12,2030-04-12,7,1,500,62.35,1
+C0462,Lantana Cove,GCS,HOA - Single Family,339,Native FTTH,,2026-05-17,2031-05-17,5,2,500,65.22,0
+C0463,Sandpiper Reserve,GCS,HOA - Single Family,202,Native FTTH,,2023-05-07,2030-05-07,7,1,300,52.82,0
+C0464,Heron Bend,GCS,COA - Condominium,439,Converted HFC to FTTH,2026-05-01,2020-12-20,2027-12-20,7,0,1000,64.43,0
+C0465,Mangrove Bend,GCS,COA - Condominium,696,Converted HFC to FTTH,2023-12-02,2023-09-02,2033-09-02,10,0,1000,63.47,1
+C0466,Hibiscus Bend,GCS,COA - Condominium,332,Converted HFC to FTTH,2021-01-12,2023-06-03,2028-06-03,5,0,1000,70.24,0
+C0467,Egret Cove,GCS,Master-Planned New Construction,193,Native FTTH,,2026-10-28,2031-10-28,5,2,500,54.28,1
+C0468,Egret Ridge,GCS,55+ Active Adult,1356,Converted HFC to FTTH,2022-04-01,2024-06-29,2029-06-29,5,0,500,61.49,0
+C0469,Magnolia Pointe,GCS,55+ Active Adult,531,Converted HFC to FTTH,2021-11-05,2021-12-19,2026-12-19,5,0,500,48.3,0
+C0470,Orchid Hammock,GCS,Master-Planned New Construction,331,Native FTTH,,2022-03-07,2027-03-07,5,0,500,62.99,0
+C0471,Laurel Cove,HOU,Multifamily / Apartment,360,Native FTTH,,2025-10-01,2030-10-01,5,0,500,56.97,0
+C0472,Silver Lake Village,HOU,Master-Planned New Construction,120,Native FTTH,,2025-08-01,2035-08-01,10,0,300,50.98,1
+C0473,Juniper Park,HOU,Multifamily / Apartment,214,Native FTTH,,2024-11-01,2031-11-01,7,0,300,47.71,1
+C0474,Osprey Lakes,HOU,Multifamily / Apartment,237,Native FTTH,,2025-09-01,2035-09-01,10,0,500,56.99,0
+C0475,Egret Trace,HOU,Master-Planned New Construction,215,Native FTTH,,2026-03-01,2036-03-01,10,0,300,53.31,1
+C0476,Silver Lake Lakes,HOU,Master-Planned New Construction,279,Native FTTH,,2026-06-01,2033-06-01,7,0,500,56.38,0
+C0477,Cedar Crossing,HOU,Multifamily / Apartment,221,Native FTTH,,2025-02-01,2030-02-01,5,0,500,65.02,0
+C0478,Manatee Reserve,HOU,Master-Planned New Construction,121,Native FTTH,,2024-09-01,2034-09-01,10,0,1000,64.74,0
+C0479,Hibiscus Cove,HOU,Multifamily / Apartment,196,Native FTTH,,2025-11-01,2030-11-01,5,0,500,53.18,1
+C0480,Heron Commons,HOU,Multifamily / Apartment,309,Native FTTH,,2025-01-01,2035-01-01,10,0,500,61.82,0
+C0481,Live Oak Ridge,HOU,Multifamily / Apartment,207,Native FTTH,,2026-03-01,2031-03-01,5,0,500,51.43,0
+C0482,Tortoise Reserve,HOU,Multifamily / Apartment,156,Native FTTH,,2026-02-01,2033-02-01,7,0,1000,61.71,0
+C0483,Egret Isles,HOU,Multifamily / Apartment,210,Native FTTH,,2025-02-01,2030-02-01,5,0,300,48.23,0
+C0484,Banyan Village,HOU,Master-Planned New Construction,288,Native FTTH,,2026-04-01,2036-04-01,10,0,300,49.25,0
+C0485,Fox Estates,HOU,Master-Planned New Construction,815,Native FTTH,,2025-10-01,2032-10-01,7,0,500,60.5,0
+C0486,Fox Commons,HOU,Multifamily / Apartment,113,Native FTTH,,2025-09-01,2030-09-01,5,0,300,48.67,0
+C0487,Juniper Hammock,HOU,Master-Planned New Construction,249,Native FTTH,,2025-02-01,2032-02-01,7,0,500,55.2,0
+C0488,Fox Pointe,HOU,Multifamily / Apartment,312,Native FTTH,,2025-01-01,2032-01-01,7,0,1000,74.13,0
+C0489,Cypress Preserve,HOU,Multifamily / Apartment,179,Native FTTH,,2025-10-01,2030-10-01,5,0,1000,62.9,0
+C0490,Bay Run,HOU,Multifamily / Apartment,435,Native FTTH,,2025-06-01,2032-06-01,7,0,1000,58.2,0
+C0491,Bluewater Commons,HOU,Multifamily / Apartment,198,Native FTTH,,2026-01-01,2031-01-01,5,0,500,62.3,0
+C0492,Tarpon Landing,HOU,Multifamily / Apartment,345,Native FTTH,,2025-01-01,2030-01-01,5,0,300,49.51,1
+C0493,Manatee Estates,HOU,Multifamily / Apartment,238,Native FTTH,,2025-09-01,2032-09-01,7,0,500,57.01,1
+C0494,Bay Bend,HOU,Multifamily / Apartment,263,Native FTTH,,2025-08-01,2035-08-01,10,0,1000,66.46,0
+C0495,Silver Lake Preserve,HOU,Master-Planned New Construction,184,Native FTTH,,2024-09-01,2034-09-01,10,0,300,58.49,0
+C0496,Seagrape Park,HOU,Master-Planned New Construction,281,Native FTTH,,2024-10-01,2031-10-01,7,0,300,51.41,0
+C0497,Heron Village,HOU,Master-Planned New Construction,334,Native FTTH,,2024-10-01,2031-10-01,7,0,500,54.4,0
+C0498,Sabal Ridge,HOU,Master-Planned New Construction,391,Native FTTH,,2025-12-01,2030-12-01,5,0,1000,65.46,0
+C0499,Laurel Park,HOU,Master-Planned New Construction,218,Native FTTH,,2026-01-01,2031-01-01,5,0,500,54.34,0
+C0500,Egret Reserve,HOU,Master-Planned New Construction,311,Native FTTH,,2025-02-01,2035-02-01,10,0,500,59.11,1

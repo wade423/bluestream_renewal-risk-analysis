@@ -1,0 +1,86 @@
+table ref_competitor_profile
+	lineageTag: 52889b44-e791-4ba7-83a7-c4c877080c05
+
+	column provider
+		dataType: string
+		lineageTag: 3e15049b-6d5e-47be-b044-cb6ae6bd4171
+		summarizeBy: none
+		sourceColumn: provider
+
+		annotation SummarizationSetBy = Automatic
+
+	column headquarters
+		dataType: string
+		lineageTag: 1df873be-f836-4fc8-9dc2-3c375de273f0
+		summarizeBy: none
+		sourceColumn: headquarters
+
+		annotation SummarizationSetBy = Automatic
+
+	column founded
+		dataType: string
+		lineageTag: 0e5dafc0-55e7-43f6-a501-931d06f8aa36
+		summarizeBy: none
+		sourceColumn: founded
+
+		annotation SummarizationSetBy = Automatic
+
+	column ownership
+		dataType: string
+		lineageTag: f2b28fe8-0baa-4c4d-af40-66e1a494cf08
+		summarizeBy: none
+		sourceColumn: ownership
+
+		annotation SummarizationSetBy = Automatic
+
+	column footprint
+		dataType: string
+		lineageTag: bdef1903-9e19-4b9c-8a80-d771e574f9c6
+		summarizeBy: none
+		sourceColumn: footprint
+
+		annotation SummarizationSetBy = Automatic
+
+	column markets
+		dataType: string
+		lineageTag: 690737db-f289-46b0-bd1e-bf43a0fa86c9
+		summarizeBy: none
+		sourceColumn: markets
+
+		annotation SummarizationSetBy = Automatic
+
+	column business_model
+		dataType: string
+		lineageTag: e320141c-1229-44d5-8c6a-be0015c95fe6
+		summarizeBy: none
+		sourceColumn: business_model
+
+		annotation SummarizationSetBy = Automatic
+
+	column notable_differentiators
+		dataType: string
+		lineageTag: 55939b53-339f-4dd7-9271-17ac4b22625f
+		summarizeBy: none
+		sourceColumn: notable_differentiators
+
+		annotation SummarizationSetBy = Automatic
+
+	column source_url
+		dataType: string
+		lineageTag: 2ac4c6d2-3329-43b9-9fa6-7d3ea9041584
+		summarizeBy: none
+		sourceColumn: source_url
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ref_competitor_profile = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "ref_competitor_profile.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"provider", type text}, {"headquarters", type text}, {"founded", type text}, {"ownership", type text}, {"footprint", type text}, {"markets", type text}, {"business_model", type text}, {"notable_differentiators", type text}, {"source_url", type text}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

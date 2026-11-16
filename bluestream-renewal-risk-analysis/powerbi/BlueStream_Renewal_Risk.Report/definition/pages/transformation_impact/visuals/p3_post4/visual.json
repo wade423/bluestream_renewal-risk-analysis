@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "p3_post4",
+  "position": {
+    "x": 950,
+    "y": 92,
+    "z": 13,
+    "width": 298,
+    "height": 96,
+    "tabOrder": 13
+  },
+  "visual": {
+    "visualType": "card",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Resolved Remotely (Post-AI)"
+                }
+              },
+              "queryRef": "_Measures.Resolved Remotely (Post-AI)",
+              "nativeQueryRef": "Resolved Remotely (Post-AI)",
+              "displayName": "Resolved without a truck \u00b7 after AI"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

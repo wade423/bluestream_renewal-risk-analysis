@@ -1,0 +1,39 @@
+{
+  "name": "Blue Stream Coastal",
+  "dataColors": ["#0B5CAD", "#18A0A8", "#F2A541", "#7A8CA3", "#5BC0EB", "#2E4057", "#E4572E", "#9BC53D"],
+  "background": "#FFFFFF",
+  "foreground": "#1F2A37",
+  "tableAccent": "#0B5CAD",
+  "good": "#2E9E6B",
+  "neutral": "#F2A541",
+  "bad": "#D64545",
+  "maximum": "#D64545",
+  "center": "#F7D9A8",
+  "minimum": "#FFFFFF",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 13, "color": "#1F2A37" },
+    "header": { "fontFace": "Segoe UI Semibold", "fontSize": 12, "color": "#1F2A37" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#4B5563" },
+    "callout": { "fontFace": "Segoe UI Light", "fontSize": 28, "color": "#0B5CAD" }
+  },
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#F4F6F9" } }, "transparency": 0 }]
+      }
+    },
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#DDE3EA" } } }],
+        "dropShadow": [{ "show": false }]
+      }
+    },
+    "textbox": {
+      "*": {
+        "background": [{ "show": false }],
+        "border": [{ "show": false }]
+      }
+    }
+  }
+}

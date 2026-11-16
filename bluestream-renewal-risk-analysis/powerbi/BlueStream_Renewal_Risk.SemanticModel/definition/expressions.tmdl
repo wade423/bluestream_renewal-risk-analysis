@@ -1,0 +1,4 @@
+expression DataFolder = "C:\BlueStream\bluestream-renewal-risk-analysis\data\" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: d7f2cf6a-fd32-4626-8db1-dc24bae3e9a7
+
+	annotation PBI_ResultType = Text

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "p3_conv_tickets",
+  "position": {
+    "x": 855,
+    "y": 506,
+    "z": 34,
+    "width": 405,
+    "height": 96,
+    "tabOrder": 34
+  },
+  "visual": {
+    "visualType": "card",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "Trouble Call Change After Conversion"
+                }
+              },
+              "queryRef": "_Measures.Trouble Call Change After Conversion",
+              "nativeQueryRef": "Trouble Call Change After Conversion",
+              "displayName": "Change in trouble calls after cut-over"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+table dim_region
+	lineageTag: abcaf806-0b36-45e9-beda-4def5224f2cc
+
+	column region_id
+		dataType: string
+		lineageTag: 9aaeb9ef-8483-4975-9550-6da22f29b707
+		summarizeBy: none
+		sourceColumn: region_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column region_name
+		dataType: string
+		lineageTag: fed43c39-86e2-4649-a328-590576991451
+		summarizeBy: none
+		sourceColumn: region_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column state
+		dataType: string
+		lineageTag: e36427b3-b2b5-42ae-8bbd-c5df8b6862c9
+		summarizeBy: none
+		sourceColumn: state
+
+		annotation SummarizationSetBy = Automatic
+
+	column hub_city
+		dataType: string
+		lineageTag: c40d4962-b750-428f-86cb-0be74c39e15b
+		summarizeBy: none
+		sourceColumn: hub_city
+
+		annotation SummarizationSetBy = Automatic
+
+	column hotwire_present_public
+		dataType: int64
+		formatString: 0
+		lineageTag: 420435d4-0660-464c-ad1f-5068c0ee615b
+		summarizeBy: none
+		sourceColumn: hotwire_present_public
+
+		annotation SummarizationSetBy = Automatic
+
+	column market_launch_date
+		dataType: dateTime
+		formatString: Short Date
+		sourceProviderType: date
+		lineageTag: 0eec1967-7ca7-4a4c-90b1-dd6db050545b
+		summarizeBy: none
+		sourceColumn: market_launch_date
+
+		annotation SummarizationSetBy = Automatic
+		annotation UnderlyingDateTimeDataType = Date
+
+
+	partition dim_region = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_region.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Blanks = Table.ReplaceValue(Promoted, "", null, Replacer.ReplaceValue, {"market_launch_date"}),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"region_id", type text}, {"region_name", type text}, {"state", type text}, {"hub_city", type text}, {"hotwire_present_public", Int64.Type}, {"market_launch_date", type date}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table

@@ -1,0 +1,163 @@
+risk_rank,community_id,community_name,region_name,community_type,total_units,build_type,contract_end_date,days_to_renewal,competitor_activity_flag,nps_last3,nps_change_6mo,trouble_per_100_units_90d,risk_score,risk_tier
+1,C0421,Eagle Bend,Gulf Coast,Multifamily / Apartment,361,Converted HFC to FTTH,2027-06-20,231.0,1,-15.8,-13.4,10.0,81.8,High
+2,C0454,Egret Bend,Gulf Coast,HOA - Single Family,291,Legacy HFC,2028-03-21,506.0,1,7.9,-5.5,22.0,81.0,High
+3,C0015,Eagle Crossing,South Florida,55+ Active Adult,296,Legacy HFC,2028-08-22,660.0,1,2.2,-3.6,15.5,77.2,High
+4,C0023,Tortoise Isles,South Florida,HOA - Single Family,350,Converted HFC to FTTH,2028-08-10,648.0,1,25.4,-14.5,6.9,75.0,High
+5,C0310,Pelican Preserve,Central Florida,Multifamily / Apartment,210,Legacy HFC,2027-03-21,140.0,1,20.1,-2.2,11.9,74.3,High
+6,C0001,Osprey Trace,South Florida,Master-Planned New Construction,206,Native FTTH,2027-09-09,312.0,1,21.7,-13.8,5.3,74.2,High
+7,C0424,Sabal Lakes,Gulf Coast,Master-Planned New Construction,115,Native FTTH,2027-09-09,312.0,1,13.8,-8.4,8.7,69.8,High
+8,C0008,Willow Ridge,South Florida,Multifamily / Apartment,601,Converted HFC to FTTH,2027-03-25,144.0,1,13.3,-7.8,6.8,65.8,High
+9,C0437,Orchid Preserve,Gulf Coast,Master-Planned New Construction,68,Native FTTH,2026-12-29,58.0,1,27.1,-9.6,7.4,64.6,High
+10,C0047,Lantana Village,South Florida,COA - Condominium,641,Legacy HFC,2028-09-20,689.0,0,13.9,-3.8,16.7,57.6,High
+11,C0353,Sawgrass Commons,Southwest Florida,55+ Active Adult,240,Converted HFC to FTTH,2027-10-15,348.0,1,18.8,-5.1,3.3,55.2,High
+12,C0070,Pelican Reserve,South Florida,HOA - Single Family,138,Legacy HFC,2028-07-05,612.0,0,18.8,-2.3,13.0,54.6,High
+13,C0118,Lantana Park,South Florida,HOA - Single Family,82,Converted HFC to FTTH,2028-08-03,641.0,1,20.9,-3.3,3.7,51.4,High
+14,C0133,Seagrape Preserve,South Florida,HOA - Single Family,263,Native FTTH,2028-03-30,515.0,1,27.6,-4.3,5.7,51.1,High
+15,C0426,Willow Estates,Gulf Coast,HOA - Single Family,161,Legacy HFC,2027-08-01,273.0,1,44.5,2.2,10.6,50.4,High
+16,C0452,Heron Shores,Gulf Coast,HOA - Single Family,185,Legacy HFC,2028-01-16,441.0,0,19.0,0.3,11.9,50.0,High
+17,C0080,Coral Isles,South Florida,HOA - Single Family,120,Legacy HFC,2028-04-26,542.0,0,12.2,3.1,15.0,50.0,High
+18,C0131,Sabal Reserve,South Florida,55+ Active Adult,177,Converted HFC to FTTH,2027-02-25,116.0,1,39.7,-7.4,6.8,49.2,Medium
+19,C0103,Osprey Bend,South Florida,HOA - Single Family,250,Legacy HFC,2027-09-01,304.0,0,24.2,3.5,14.0,46.6,Medium
+20,C0422,Stone Bend,Gulf Coast,55+ Active Adult,232,Native FTTH,2027-06-29,240.0,1,37.6,-7.4,3.9,46.6,Medium
+21,C0058,Hibiscus Estates,South Florida,COA - Condominium,374,Converted HFC to FTTH,2027-11-27,391.0,1,27.1,1.2,7.8,46.0,Medium
+22,C0212,Magnolia Preserve,Treasure Coast,55+ Active Adult,137,Converted HFC to FTTH,2027-05-26,206.0,0,10.8,-5.7,9.5,45.6,Medium
+23,C0095,Crescent Cove,South Florida,COA - Condominium,97,Legacy HFC,2027-11-09,373.0,0,30.4,-1.6,12.4,44.9,Medium
+24,C0413,Orchid Trace,Southwest Florida,COA - Condominium,256,Converted HFC to FTTH,2028-07-03,610.0,1,33.4,-3.4,5.5,44.3,Medium
+25,C0163,Mangrove Commons,Treasure Coast,Master-Planned New Construction,392,Native FTTH,2028-01-06,431.0,0,3.6,-6.2,7.9,44.2,Medium
+26,C0236,Juniper Landing,Treasure Coast,Master-Planned New Construction,178,Native FTTH,2027-08-15,287.0,0,24.5,-6.9,9.0,43.7,Medium
+27,C0169,Harbor Reserve,Treasure Coast,HOA - Single Family,267,Legacy HFC,2028-04-14,530.0,0,29.1,2.9,13.1,42.7,Medium
+28,C0075,Ibis Trace,South Florida,HOA - Single Family,173,Native FTTH,2027-05-05,185.0,0,14.3,-3.9,9.8,42.5,Medium
+29,C0305,Live Oak Trace,Central Florida,HOA - Single Family,490,Legacy HFC,2026-11-25,24.0,0,35.0,-2.1,9.2,41.0,Medium
+30,C0185,Harbor Village,Treasure Coast,HOA - Single Family,251,Converted HFC to FTTH,2027-12-22,416.0,0,26.7,-7.4,7.2,40.2,Medium
+31,C0176,Cedar Pointe,Treasure Coast,HOA - Single Family,329,Legacy HFC,2028-07-03,610.0,0,34.0,-0.4,10.0,39.6,Medium
+32,C0084,Ibis Run,South Florida,HOA - Single Family,687,Legacy HFC,2027-09-15,318.0,0,34.7,5.9,12.4,38.2,Medium
+33,C0364,Lantana Hammock,Southwest Florida,COA - Condominium,439,Converted HFC to FTTH,2028-05-14,560.0,1,38.7,-3.0,4.8,38.2,Medium
+34,C0247,Eagle Commons,Treasure Coast,HOA - Single Family,283,Legacy HFC,2028-05-15,561.0,0,73.6,-4.0,10.2,38.0,Medium
+35,C0372,Crescent Commons,Southwest Florida,HOA - Single Family,429,Converted HFC to FTTH,2027-12-08,402.0,1,45.5,-5.3,4.7,37.6,Medium
+36,C0078,Seagrape Reserve,South Florida,55+ Active Adult,403,Converted HFC to FTTH,2027-07-17,258.0,1,47.1,-5.2,4.7,37.4,Medium
+37,C0307,Heron Hammock,Central Florida,COA - Condominium,194,Converted HFC to FTTH,2027-05-18,198.0,1,54.4,-4.5,5.2,36.8,Medium
+38,C0385,Harbor Estates,Southwest Florida,COA - Condominium,266,Legacy HFC,2028-07-20,627.0,0,37.2,2.0,10.2,36.2,Medium
+39,C0225,Live Oak Reserve,Treasure Coast,55+ Active Adult,219,Legacy HFC,2027-03-20,139.0,0,38.8,2.9,14.2,35.0,Medium
+40,C0065,Silver Lake Trace,South Florida,55+ Active Adult,326,Converted HFC to FTTH,2027-10-02,335.0,1,45.3,-3.9,4.6,34.7,Medium
+41,C0135,Silver Lake Bend,South Florida,55+ Active Adult,353,Native FTTH,2027-04-12,162.0,1,48.4,-3.8,4.2,33.9,Medium
+42,C0451,Eagle Landing,Gulf Coast,Master-Planned New Construction,198,Native FTTH,2028-10-14,713.0,0,24.6,-2.8,7.1,32.6,Medium
+43,C0053,Sandpiper Lakes,South Florida,COA - Condominium,481,Native FTTH,2028-06-29,606.0,0,28.7,-4.2,6.9,31.8,Medium
+44,C0288,Sawgrass Pointe,Central Florida,Multifamily / Apartment,108,Legacy HFC,2027-08-24,296.0,0,38.5,9.0,7.4,31.3,Medium
+45,C0343,Ibis Reserve,Central Florida,55+ Active Adult,672,Legacy HFC,2026-12-28,57.0,0,76.2,-1.0,8.9,30.4,Medium
+46,C0260,Egret Hammock,Treasure Coast,COA - Condominium,130,Legacy HFC,2027-01-03,63.0,0,44.6,3.3,12.3,30.3,Medium
+47,C0228,Cypress Lakes,Treasure Coast,COA - Condominium,355,Legacy HFC,2027-08-15,287.0,0,53.7,4.5,13.8,30.0,Medium
+48,C0181,Laurel Bend,Treasure Coast,HOA - Single Family,205,Legacy HFC,2026-11-28,27.0,0,43.0,7.2,8.8,29.8,Medium
+49,C0295,Magnolia Lakes,Central Florida,COA - Condominium,254,Legacy HFC,2028-09-13,682.0,0,38.4,5.9,6.3,29.7,Medium
+50,C0356,Hibiscus Commons,Southwest Florida,55+ Active Adult,417,Legacy HFC,2027-08-13,285.0,0,56.8,3.8,9.8,29.7,Medium
+51,C0096,Eagle Trace,South Florida,HOA - Single Family,641,Converted HFC to FTTH,2028-03-26,511.0,1,68.0,2.9,6.2,29.3,Medium
+52,C0231,Silver Lake Park,Treasure Coast,HOA - Single Family,223,Legacy HFC,2028-03-24,509.0,0,45.5,4.6,9.4,29.1,Medium
+53,C0186,Sawgrass Park,Treasure Coast,HOA - Single Family,269,Converted HFC to FTTH,2028-06-11,588.0,0,29.7,-4.0,5.9,29.1,Medium
+54,C0123,Crescent Landing,South Florida,HOA - Single Family,380,Native FTTH,2027-12-11,405.0,1,76.5,2.2,5.8,28.7,Medium
+55,C0350,Stone Preserve,Central Florida,55+ Active Adult,481,Native FTTH,2028-01-01,426.0,1,60.0,-1.1,4.2,28.5,Medium
+56,C0453,Harbor Bend,Gulf Coast,HOA - Single Family,203,Native FTTH,2027-11-27,391.0,0,26.3,-4.0,3.4,28.1,Medium
+57,C0242,Sabal Commons,Treasure Coast,HOA - Single Family,377,Native FTTH,2027-11-28,392.0,0,30.2,-4.6,4.2,27.3,Medium
+58,C0402,Hibiscus Run,Southwest Florida,HOA - Single Family,89,Converted HFC to FTTH,2027-03-23,142.0,1,54.8,-0.1,4.5,27.0,Medium
+59,C0145,Ibis Shores,South Florida,COA - Condominium,153,Native FTTH,2028-08-20,658.0,1,51.0,-0.3,3.9,26.4,Medium
+60,C0098,Cypress Hammock,South Florida,55+ Active Adult,433,Converted HFC to FTTH,2027-11-13,377.0,1,89.9,0.5,4.2,26.3,Medium
+61,C0336,Heron Run,Central Florida,HOA - Single Family,395,Converted HFC to FTTH,2028-01-18,443.0,1,57.2,3.3,4.1,26.2,Medium
+62,C0342,Cedar Reserve,Central Florida,HOA - Single Family,485,Converted HFC to FTTH,2027-11-24,388.0,1,65.3,6.0,3.9,25.8,Medium
+63,C0129,Egret Park,South Florida,COA - Condominium,207,Native FTTH,2027-12-14,408.0,1,57.3,0.5,3.9,25.8,Medium
+64,C0338,Banyan Ridge,Central Florida,HOA - Single Family,155,Legacy HFC,2027-05-23,203.0,0,44.8,2.7,7.1,25.8,Medium
+65,C0077,Willow Bend,South Florida,HOA - Single Family,382,Converted HFC to FTTH,2026-12-28,57.0,1,51.4,0.9,3.7,25.6,Medium
+66,C0116,Stone Reserve,South Florida,55+ Active Adult,320,Native FTTH,2027-11-16,380.0,0,35.9,-3.5,7.5,25.5,Medium
+67,C0144,Seagrape Estates,South Florida,HOA - Single Family,136,Converted HFC to FTTH,2027-11-07,371.0,0,39.3,-5.4,5.9,24.2,Low
+68,C0340,Lantana Estates,Central Florida,HOA - Single Family,132,Converted HFC to FTTH,2028-04-06,522.0,0,55.5,-6.7,6.1,22.5,Low
+69,C0262,Heron Ridge,Central Florida,COA - Condominium,111,Converted HFC to FTTH,2028-09-10,679.0,0,46.0,-3.0,11.7,21.0,Low
+70,C0251,Live Oak Cove,Treasure Coast,Multifamily / Apartment,370,Converted HFC to FTTH,2028-06-02,579.0,0,32.1,2.5,6.2,19.6,Low
+71,C0202,Egret Lakes,Treasure Coast,Multifamily / Apartment,397,Converted HFC to FTTH,2027-10-05,338.0,0,51.7,-4.3,6.0,17.6,Low
+72,C0040,Magnolia Crossing,South Florida,HOA - Single Family,217,Native FTTH,2028-03-19,504.0,0,40.1,-2.7,5.5,17.6,Low
+73,C0013,Mangrove Park,South Florida,HOA - Single Family,360,Native FTTH,2027-11-21,385.0,0,43.8,-2.3,6.7,15.6,Low
+74,C0100,Manatee Run,South Florida,Master-Planned New Construction,393,Native FTTH,2028-08-02,640.0,0,41.0,0.3,7.9,15.0,Low
+75,C0423,Laurel Estates,Gulf Coast,HOA - Single Family,185,Native FTTH,2027-12-16,410.0,0,57.0,0.7,9.7,14.6,Low
+76,C0447,Palm Pointe,Gulf Coast,Master-Planned New Construction,543,Native FTTH,2028-06-10,587.0,0,37.5,2.5,5.5,14.2,Low
+77,C0420,Osprey Run,Southwest Florida,Multifamily / Apartment,101,Native FTTH,2027-09-04,307.0,0,43.7,-1.4,6.9,14.2,Low
+78,C0044,Coral Shores,South Florida,HOA - Single Family,290,Native FTTH,2028-02-16,472.0,0,51.9,-4.2,3.8,14.1,Low
+79,C0132,Seagrape Shores,South Florida,HOA - Single Family,108,Converted HFC to FTTH,2028-10-27,726.0,0,59.2,-3.5,4.6,13.9,Low
+80,C0293,Juniper Isles,Central Florida,HOA - Single Family,352,Native FTTH,2027-06-24,235.0,0,37.4,2.0,4.8,13.3,Low
+81,C0049,Pelican Village,South Florida,COA - Condominium,119,Converted HFC to FTTH,2028-03-23,508.0,0,47.9,-0.9,7.6,13.2,Low
+82,C0014,Fox Isles,South Florida,Multifamily / Apartment,240,Converted HFC to FTTH,2027-12-06,400.0,0,61.6,7.3,8.3,12.5,Low
+83,C0237,Cypress Ridge,Treasure Coast,HOA - Single Family,724,Native FTTH,2027-03-26,145.0,0,51.3,-1.5,6.1,12.1,Low
+84,C0006,Palm Isles,South Florida,Multifamily / Apartment,188,Converted HFC to FTTH,2028-02-13,469.0,0,54.8,9.8,8.0,12.0,Low
+85,C0126,Coral Reserve,South Florida,HOA - Single Family,166,Native FTTH,2028-05-26,572.0,0,57.2,0.8,7.8,11.7,Low
+86,C0344,Egret Run,Central Florida,HOA - Single Family,64,Converted HFC to FTTH,2028-09-11,680.0,0,52.7,4.7,7.8,11.7,Low
+87,C0130,Harbor Shores,South Florida,COA - Condominium,1079,Native FTTH,2028-02-15,471.0,0,64.7,-1.9,5.2,11.6,Low
+88,C0089,Palm Lakes,South Florida,HOA - Single Family,169,Converted HFC to FTTH,2027-07-08,249.0,0,61.6,6.2,7.7,11.6,Low
+89,C0431,Live Oak Commons,Gulf Coast,55+ Active Adult,364,Converted HFC to FTTH,2028-09-24,693.0,0,62.4,2.1,7.7,11.6,Low
+90,C0224,Tortoise Preserve,Treasure Coast,HOA - Single Family,203,Native FTTH,2028-06-23,600.0,0,48.5,-1.6,5.4,11.3,Low
+91,C0460,Harbor Trace,Gulf Coast,HOA - Single Family,319,Native FTTH,2028-08-12,650.0,0,45.7,-2.8,3.8,11.3,Low
+92,C0246,Lantana Trace,Treasure Coast,COA - Condominium,118,Native FTTH,2028-02-23,479.0,0,42.0,0.9,5.9,11.3,Low
+93,C0051,Stone Crossing,South Florida,55+ Active Adult,280,Converted HFC to FTTH,2026-11-07,6.0,0,63.0,2.7,7.5,11.2,Low
+94,C0315,Crescent Hammock,Central Florida,55+ Active Adult,265,Converted HFC to FTTH,2027-02-19,110.0,0,66.1,3.4,7.5,11.2,Low
+95,C0292,Osprey Preserve,Central Florida,Master-Planned New Construction,94,Native FTTH,2027-08-13,285.0,0,54.5,6.5,7.4,11.1,Low
+96,C0366,Banyan Hammock,Southwest Florida,COA - Condominium,92,Native FTTH,2027-12-31,425.0,0,41.3,0.9,5.4,11.1,Low
+97,C0259,Sawgrass Isles,Treasure Coast,55+ Active Adult,1054,Converted HFC to FTTH,2026-12-14,43.0,0,49.0,-1.7,5.1,11.0,Low
+98,C0134,Sandpiper Bend,South Florida,55+ Active Adult,705,Native FTTH,2027-09-21,324.0,0,47.0,-0.7,6.4,11.0,Low
+99,C0140,Silver Lake Crossing,South Florida,Multifamily / Apartment,77,Native FTTH,2027-12-25,419.0,0,42.5,-0.5,5.2,10.8,Low
+100,C0440,Silver Lake Reserve,Gulf Coast,HOA - Single Family,237,Converted HFC to FTTH,2028-09-10,679.0,0,64.2,-0.6,6.3,10.6,Low
+101,C0222,Pelican Crossing,Treasure Coast,HOA - Single Family,346,Native FTTH,2028-02-26,482.0,0,55.6,0.1,6.9,10.4,Low
+102,C0086,Coral Bend,South Florida,HOA - Single Family,176,Converted HFC to FTTH,2027-07-16,257.0,0,59.7,-2.6,3.4,10.3,Low
+103,C0370,Juniper Ridge,Southwest Florida,HOA - Single Family,60,Converted HFC to FTTH,2027-08-24,296.0,0,58.4,3.0,6.7,10.0,Low
+104,C0076,Bluewater Hammock,South Florida,55+ Active Adult,579,Converted HFC to FTTH,2026-12-22,51.0,0,66.0,-2.8,2.9,10.0,Low
+105,C0252,Juniper Run,Treasure Coast,55+ Active Adult,1145,Converted HFC to FTTH,2027-05-10,190.0,0,43.4,4.4,5.6,9.7,Low
+106,C0192,Tortoise Trace,Treasure Coast,Master-Planned New Construction,109,Native FTTH,2027-09-12,315.0,0,60.3,6.5,6.4,9.6,Low
+107,C0208,Stone Landing,Treasure Coast,COA - Condominium,418,Native FTTH,2027-04-04,154.0,0,45.6,-2.3,3.3,9.5,Low
+108,C0011,Heron Reserve,South Florida,HOA - Single Family,471,Native FTTH,2028-01-17,442.0,0,58.6,1.4,6.2,9.3,Low
+109,C0448,Osprey Landing,Gulf Coast,HOA - Single Family,252,Converted HFC to FTTH,2026-11-17,16.0,0,56.9,-0.9,4.8,9.0,Low
+110,C0024,Orchid Lakes,South Florida,Multifamily / Apartment,380,Native FTTH,2027-09-21,324.0,0,49.5,-0.7,5.0,8.9,Low
+111,C0207,Manatee Trace,Treasure Coast,55+ Active Adult,691,Converted HFC to FTTH,2027-04-25,175.0,0,71.9,-0.7,4.9,8.8,Low
+112,C0278,Coral Hammock,Central Florida,Master-Planned New Construction,504,Native FTTH,2027-02-13,104.0,0,65.4,0.1,5.8,8.7,Low
+113,C0403,Coral Village,Southwest Florida,55+ Active Adult,380,Converted HFC to FTTH,2028-05-28,574.0,0,55.8,3.8,5.8,8.7,Low
+114,C0194,Hibiscus Preserve,Treasure Coast,HOA - Single Family,219,Native FTTH,2028-07-24,631.0,0,89.4,-0.6,5.0,8.7,Low
+115,C0458,Juniper Shores,Gulf Coast,Multifamily / Apartment,495,Native FTTH,2028-04-13,529.0,0,44.6,1.1,5.5,8.6,Low
+116,C0369,Eagle Pointe,Southwest Florida,55+ Active Adult,864,Native FTTH,2027-08-16,288.0,0,58.9,0.8,5.6,8.4,Low
+117,C0358,Tortoise Ridge,Southwest Florida,Multifamily / Apartment,364,Converted HFC to FTTH,2028-08-07,645.0,0,45.5,5.5,5.5,8.2,Low
+118,C0312,Mangrove Village,Central Florida,55+ Active Adult,163,Native FTTH,2028-10-01,700.0,0,89.8,0.8,5.5,8.2,Low
+119,C0085,Sandpiper Shores,South Florida,COA - Condominium,429,Converted HFC to FTTH,2028-07-22,629.0,0,65.9,8.8,5.4,8.1,Low
+120,C0469,Magnolia Pointe,Gulf Coast,55+ Active Adult,531,Converted HFC to FTTH,2026-12-19,48.0,0,65.6,2.2,5.3,8.0,Low
+121,C0148,Manatee Landing,South Florida,COA - Condominium,301,Converted HFC to FTTH,2028-06-27,604.0,0,48.3,8.4,5.3,8.0,Low
+122,C0265,Sabal Preserve,Central Florida,55+ Active Adult,187,Native FTTH,2028-10-23,722.0,0,56.5,10.8,5.3,8.0,Low
+123,C0280,Laurel Commons,Central Florida,Master-Planned New Construction,116,Native FTTH,2027-10-05,338.0,0,56.2,2.6,5.2,7.8,Low
+124,C0258,Bay Village,Treasure Coast,Multifamily / Apartment,250,Converted HFC to FTTH,2028-03-29,514.0,0,69.7,4.3,5.2,7.8,Low
+125,C0175,Harbor Run,Treasure Coast,55+ Active Adult,1868,Converted HFC to FTTH,2027-02-02,93.0,0,69.9,0.5,5.1,7.6,Low
+126,C0155,Orchid Park,Treasure Coast,Multifamily / Apartment,136,Native FTTH,2027-06-13,224.0,0,54.7,0.9,5.1,7.6,Low
+127,C0381,Fox Village,Southwest Florida,COA - Condominium,613,Native FTTH,2027-08-04,276.0,0,80.8,2.4,5.1,7.6,Low
+128,C0201,Sandpiper Cove,Treasure Coast,HOA - Single Family,1271,Converted HFC to FTTH,2027-03-22,141.0,0,53.4,7.9,5.0,7.5,Low
+129,C0198,Sabal Village,Treasure Coast,Multifamily / Apartment,180,Native FTTH,2028-10-29,728.0,0,72.2,1.9,5.0,7.5,Low
+130,C0349,Heron Trace,Central Florida,Master-Planned New Construction,891,Native FTTH,2027-01-09,69.0,0,53.4,3.0,4.9,7.4,Low
+131,C0425,Mangrove Crossing,Gulf Coast,Master-Planned New Construction,126,Native FTTH,2027-08-30,302.0,0,61.7,3.4,4.8,7.2,Low
+132,C0464,Heron Bend,Gulf Coast,COA - Condominium,439,Converted HFC to FTTH,2027-12-20,414.0,0,48.9,9.2,4.8,7.2,Low
+133,C0466,Hibiscus Bend,Gulf Coast,COA - Condominium,332,Converted HFC to FTTH,2028-06-03,580.0,0,79.2,2.4,4.8,7.2,Low
+134,C0445,Palm Bend,Gulf Coast,Master-Planned New Construction,334,Native FTTH,2027-09-13,316.0,0,61.6,-0.2,4.5,7.2,Low
+135,C0238,Manatee Park,Treasure Coast,55+ Active Adult,420,Native FTTH,2027-01-29,89.0,0,41.0,6.8,2.6,7.1,Low
+136,C0025,Silver Lake Ridge,South Florida,55+ Active Adult,1246,Native FTTH,2028-05-05,551.0,0,71.2,6.2,4.7,7.0,Low
+137,C0128,Silver Lake Shores,South Florida,HOA - Single Family,381,Converted HFC to FTTH,2028-09-03,672.0,0,46.5,7.0,4.7,7.0,Low
+138,C0197,Stone Park,Treasure Coast,Master-Planned New Construction,164,Native FTTH,2028-08-29,667.0,0,50.7,-0.3,4.3,7.0,Low
+139,C0016,Magnolia Hammock,South Florida,COA - Condominium,218,Native FTTH,2026-11-22,21.0,0,45.4,2.8,4.6,6.9,Low
+140,C0318,Eagle Ridge,Central Florida,Master-Planned New Construction,308,Native FTTH,2027-08-28,300.0,0,60.2,6.0,4.5,6.8,Low
+141,C0210,Bay Pointe,Treasure Coast,HOA - Single Family,511,Converted HFC to FTTH,2027-11-24,388.0,0,60.4,5.7,4.5,6.8,Low
+142,C0351,Laurel Run,Southwest Florida,HOA - Single Family,286,Converted HFC to FTTH,2028-04-20,536.0,0,52.3,0.6,4.5,6.8,Low
+143,C0302,Lantana Landing,Central Florida,Master-Planned New Construction,150,Native FTTH,2027-04-17,167.0,0,39.4,5.5,1.3,6.4,Low
+144,C0371,Mangrove Isles,Southwest Florida,COA - Condominium,191,Converted HFC to FTTH,2027-10-25,358.0,0,41.1,7.8,2.1,6.3,Low
+145,C0004,Harbor Commons,South Florida,55+ Active Adult,220,Converted HFC to FTTH,2027-04-08,158.0,0,48.3,2.1,4.1,6.1,Low
+146,C0093,Seagrape Lakes,South Florida,Multifamily / Apartment,98,Converted HFC to FTTH,2027-07-04,245.0,0,73.9,5.2,4.1,6.1,Low
+147,C0316,Ibis Commons,Central Florida,COA - Condominium,320,Native FTTH,2028-05-14,560.0,0,63.4,0.2,4.1,6.1,Low
+148,C0211,Bay Crossing,Treasure Coast,COA - Condominium,259,Native FTTH,2028-04-18,534.0,0,44.0,1.6,3.5,6.0,Low
+149,C0158,Bluewater Pointe,Treasure Coast,HOA - Single Family,354,Converted HFC to FTTH,2026-12-17,46.0,0,66.6,8.6,4.0,6.0,Low
+150,C0367,Ibis Landing,Southwest Florida,COA - Condominium,124,Converted HFC to FTTH,2027-02-04,95.0,0,51.4,0.8,4.0,6.0,Low
+151,C0170,Fox Trace,Treasure Coast,HOA - Single Family,101,Native FTTH,2028-09-07,676.0,0,72.2,4.7,4.0,6.0,Low
+152,C0282,Banyan Isles,Central Florida,HOA - Single Family,174,Native FTTH,2028-10-15,714.0,0,56.5,5.1,4.0,6.0,Low
+153,C0470,Orchid Hammock,Gulf Coast,Master-Planned New Construction,331,Native FTTH,2027-03-07,126.0,0,76.0,5.1,3.9,5.8,Low
+154,C0055,Heron Estates,South Florida,55+ Active Adult,537,Converted HFC to FTTH,2027-10-29,362.0,0,52.3,2.4,3.9,5.8,Low
+155,C0406,Laurel Shores,Southwest Florida,HOA - Single Family,455,Native FTTH,2027-10-23,356.0,0,66.3,4.9,3.7,5.6,Low
+156,C0162,Sabal Shores,Treasure Coast,55+ Active Adult,473,Converted HFC to FTTH,2027-02-09,100.0,0,56.7,3.3,3.6,5.4,Low
+157,C0337,Tortoise Cove,Central Florida,HOA - Single Family,321,Converted HFC to FTTH,2028-10-26,725.0,0,65.4,2.7,3.4,5.1,Low
+158,C0438,Sandpiper Crossing,Gulf Coast,Master-Planned New Construction,122,Native FTTH,2027-08-29,301.0,0,59.8,6.2,3.3,4.9,Low
+159,C0174,Hibiscus Village,Treasure Coast,HOA - Single Family,271,Converted HFC to FTTH,2028-02-11,467.0,0,62.0,3.0,3.3,4.9,Low
+160,C0311,Hibiscus Trace,Central Florida,HOA - Single Family,326,Converted HFC to FTTH,2026-11-17,16.0,0,48.7,0.9,2.8,4.2,Low
+161,C0272,Seagrape Trace,Central Florida,COA - Condominium,146,Converted HFC to FTTH,2027-10-25,358.0,0,50.4,2.0,2.7,4.1,Low
+162,C0164,Lantana Commons,Treasure Coast,COA - Condominium,80,Converted HFC to FTTH,2027-11-25,389.0,0,62.1,3.1,2.5,3.8,Low
