@@ -1,6 +1,6 @@
 # Bulk Community Renewal Risk & Transformation Analysis (Blue Stream Fiber case study)
 
-**[Live dashboard](https://wade423.github.io/bluestream-renewal-risk-analysis/) · [5-minute video walkthrough](LINK_TO_VIDEO) · [Power BI report](powerbi/)**
+**[Live dashboard](https://https://wade423.github.io/bluestream_renewal-risk-analysis/) · [5-minute video walkthrough](https://www.loom.com/share/168340f798824b89aeeba41216252bd9) · [Power BI report](powerbi/)**
 
 An end-to-end business analysis project built as a case study for a Business Analyst (Transformation) role at Blue Stream Fiber. It answers three questions a fiber operator with bulk HOA/condo contracts would ask:
 
@@ -49,7 +49,7 @@ An end-to-end business analysis project built as a case study for a Business Ana
 
 ## Live dashboard (GitHub Pages)
 
-Settings → Pages → Source: *Deploy from a branch* → Branch `main`, folder `/docs` → Save. The site appears at `https://wade423.github.io/bluestream-renewal-risk-analysis/` within a minute or two.
+Settings → Pages → Source: *Deploy from a branch* → Branch `main`, folder `/docs` → Save. The site appears at `https://wade423.github.io/bluestream_renewal-risk-analysis/` within a minute or two.
 
 ## Run it
 
