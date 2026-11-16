@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "p3_conv_after",
+  "position": {
+    "x": 1062,
+    "y": 402,
+    "z": 33,
+    "width": 198,
+    "height": 96,
+    "tabOrder": 33
+  },
+  "visual": {
+    "visualType": "card",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "NPS After Conversion"
+                }
+              },
+              "queryRef": "_Measures.NPS After Conversion",
+              "nativeQueryRef": "NPS After Conversion",
+              "displayName": "NPS, 3 mo after"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

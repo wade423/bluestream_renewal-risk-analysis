@@ -1,0 +1,194 @@
+table _Measures
+	lineageTag: 89ce02ad-53f5-4399-92a7-903319c359e5
+
+	measure 'Latest Month' = CALCULATE(MAX(fact_community_monthly[month]), ALL(fact_community_monthly))
+		formatString: Short Date
+		displayFolder: 0 Helpers
+		lineageTag: db75e7b6-d546-48e3-96fd-c1e91136f6ac
+
+	measure 'Active Units (Latest)' =
+			VAR LastM = [Latest Month]
+			RETURN CALCULATE(SUM(fact_community_monthly[active_units]), dim_month[month] = LastM)
+		formatString: #,0
+		displayFolder: 1 Portfolio
+		lineageTag: a800471d-0f02-461d-8ae0-d58229b72055
+
+	measure Communities = DISTINCTCOUNT(dim_community[community_id])
+		formatString: #,0
+		displayFolder: 1 Portfolio
+		lineageTag: 51a01b29-4b9a-46df-bfb2-b54da4e51c6b
+
+	measure 'NPS (Weighted)' =
+			DIVIDE(
+			    SUMX(fact_community_monthly, fact_community_monthly[nps] * fact_community_monthly[active_units]),
+			    SUM(fact_community_monthly[active_units]))
+		formatString: 0.0
+		displayFolder: 1 Portfolio
+		lineageTag: e481ad11-ee78-4195-943b-48795448a80a
+
+	measure 'NPS (Latest)' =
+			VAR LastM = [Latest Month]
+			RETURN CALCULATE([NPS (Weighted)], dim_month[month] = LastM)
+		formatString: 0.0
+		displayFolder: 1 Portfolio
+		lineageTag: 7c13bdb6-161b-4f49-9e82-b1d378944b62
+
+	measure 'Upgrade Take Rate (Latest)' =
+			VAR LastM = [Latest Month]
+			RETURN CALCULATE(
+			    DIVIDE(SUM(fact_community_monthly[upgrade_subscribers]), SUM(fact_community_monthly[active_units])),
+			    dim_month[month] = LastM)
+		formatString: 0.0%
+		displayFolder: 1 Portfolio
+		lineageTag: 57edd704-d5f9-4442-9bd6-c2e39d029d93
+
+	measure 'Monthly Revenue (Latest)' =
+			VAR LastM = [Latest Month]
+			RETURN CALCULATE(
+			    SUM(fact_community_monthly[bulk_revenue]) + SUM(fact_community_monthly[upgrade_revenue]),
+			    dim_month[month] = LastM)
+		formatString: \$#,0
+		displayFolder: 1 Portfolio
+		lineageTag: f368ca49-1332-404e-a842-45285725510e
+
+	measure 'Trouble Calls' = CALCULATE(COUNTROWS(fact_work_orders), fact_work_orders[work_order_type] = "Trouble Call")
+		formatString: #,0
+		displayFolder: 3 Operations
+		lineageTag: 1209889a-1d8d-4f32-9b04-9579ad851c76
+
+	measure 'Truck Roll Rate' =
+			DIVIDE(
+			    CALCULATE(SUM(fact_work_orders[truck_roll]), fact_work_orders[work_order_type] = "Trouble Call"),
+			    [Trouble Calls])
+		formatString: 0.0%
+		displayFolder: 3 Operations
+		lineageTag: 83bfa80f-9342-4de5-b397-93cbee3976af
+
+	measure 'Repeat Visit Rate' =
+			CALCULATE(
+			    DIVIDE(SUM(fact_work_orders[repeat_within_30d]), SUM(fact_work_orders[truck_roll])),
+			    fact_work_orders[work_order_type] = "Trouble Call")
+		formatString: 0.0%
+		displayFolder: 3 Operations
+		lineageTag: 5b8488ab-1caa-42d8-848c-7a15216497e0
+
+	measure '% AI Triaged' = CALCULATE(AVERAGE(fact_work_orders[ai_triaged]), fact_work_orders[work_order_type] = "Trouble Call")
+		formatString: 0.0%
+		displayFolder: 3 Operations
+		lineageTag: a63351a8-3ed7-4dda-8a7b-c3ffd839b3a1
+
+	measure 'Avg Triage Minutes' = CALCULATE(AVERAGE(fact_work_orders[triage_minutes]), fact_work_orders[work_order_type] = "Trouble Call")
+		formatString: 0.0
+		displayFolder: 3 Operations
+		lineageTag: 4f819f31-0746-456e-9398-3430429428d5
+
+	measure 'Resolved Remotely %' = CALCULATE(AVERAGE(fact_work_orders[resolved_remotely]), fact_work_orders[work_order_type] = "Trouble Call")
+		formatString: 0.0%
+		displayFolder: 3 Operations
+		lineageTag: 7da5e8bc-dd26-4749-a6ce-0f2c8c2bb56e
+
+	measure 'Truck Roll Rate (Pre-AI)' = CALCULATE([Truck Roll Rate], dim_month[ai_period] = "Pre-AI")
+		formatString: 0.0%
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: 0bc8dccc-0232-4408-85be-f0170f8de282
+
+	measure 'Truck Roll Rate (Post-AI)' = CALCULATE([Truck Roll Rate], dim_month[ai_period] = "Post-AI")
+		formatString: 0.0%
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: adebcfbf-7cdc-43f1-b24a-a285b3a4c23e
+
+	measure 'Repeat Rate (Pre-AI)' = CALCULATE([Repeat Visit Rate], dim_month[ai_period] = "Pre-AI")
+		formatString: 0.0%
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: df0c8d9d-8774-4a80-91fb-53d2ee30501e
+
+	measure 'Repeat Rate (Post-AI)' = CALCULATE([Repeat Visit Rate], dim_month[ai_period] = "Post-AI")
+		formatString: 0.0%
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: 7b12a49c-d1b8-4c32-84e0-9208e5a3244f
+
+	measure 'Triage Min (Pre-AI)' = CALCULATE([Avg Triage Minutes], dim_month[ai_period] = "Pre-AI")
+		formatString: 0.0
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: b7d7b1bf-2be3-463f-bc05-74ba18c3b653
+
+	measure 'Triage Min (Post-AI)' = CALCULATE([Avg Triage Minutes], dim_month[ai_period] = "Post-AI")
+		formatString: 0.0
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: 795d5bc8-411a-4c82-97d7-155177944933
+
+	measure 'Resolved Remotely (Pre-AI)' = CALCULATE([Resolved Remotely %], dim_month[ai_period] = "Pre-AI")
+		formatString: 0.0%
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: ae614787-de5b-4bc7-811a-0fe0bac1eaa4
+
+	measure 'Resolved Remotely (Post-AI)' = CALCULATE([Resolved Remotely %], dim_month[ai_period] = "Post-AI")
+		formatString: 0.0%
+		displayFolder: 3 Operations\Pre vs Post
+		lineageTag: 419a462a-32b3-4db3-9fad-02895fe8ba1a
+
+	measure 'Renewals (24 Mo)' = COUNTROWS(renewal_risk)
+		formatString: #,0
+		displayFolder: 2 Renewals
+		lineageTag: a381c0d8-3d26-4a9e-a5ef-bea9a6925b3e
+
+	measure 'Renewal Units' = SUM(renewal_risk[total_units])
+		formatString: #,0
+		displayFolder: 2 Renewals
+		lineageTag: 3f053d94-fc27-4925-b392-e8d6ed242676
+
+	measure 'High-Risk Renewals' = CALCULATE(COUNTROWS(renewal_risk), renewal_risk[risk_tier] = "High")
+		formatString: #,0
+		displayFolder: 2 Renewals
+		lineageTag: d90cb958-5fbd-4628-921f-03bf26d58bee
+
+	measure 'High-Risk Units' = CALCULATE(SUM(renewal_risk[total_units]), renewal_risk[risk_tier] = "High")
+		formatString: #,0
+		displayFolder: 2 Renewals
+		lineageTag: e320c437-a5c3-4835-8fb2-0edb4d491642
+
+	measure 'Risk Score' = AVERAGE(renewal_risk[risk_score])
+		formatString: 0.0
+		displayFolder: 2 Renewals
+		lineageTag: a6aa39c0-d71f-4e39-95c4-293c0d89c0d8
+
+	measure 'NPS Change 6 Mo' = AVERAGE(renewal_risk[nps_change_6mo])
+		formatString: +0.0;-0.0;0.0
+		displayFolder: 2 Renewals
+		lineageTag: 933e3419-959d-42ed-81f8-5852d6df8300
+
+	measure 'NPS Before Conversion' = SUM(fiber_conversion_impact[avg_nps_before])
+		formatString: 0.0
+		displayFolder: 4 Fiber Conversion
+		lineageTag: d8f325a4-3926-4ae1-86fd-af3919056930
+
+	measure 'NPS After Conversion' = SUM(fiber_conversion_impact[avg_nps_after])
+		formatString: 0.0
+		displayFolder: 4 Fiber Conversion
+		lineageTag: 00285deb-bb7e-44e5-b3ca-f916cf511527
+
+	measure 'Trouble Call Change After Conversion' = DIVIDE(SUM(fiber_conversion_impact[pct_change_trouble_calls]), 100)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 4 Fiber Conversion
+		lineageTag: 43d1c2eb-3e7c-4c85-809b-81b3c802bcfd
+
+	measure 'Communities Converted' = SUM(fiber_conversion_impact[communities_converted])
+		formatString: #,0
+		displayFolder: 4 Fiber Conversion
+		lineageTag: 2326a427-f052-4a1f-af58-949588210f1e
+
+	column Value
+		dataType: int64
+		isHidden
+		lineageTag: 344c2999-f8a7-4cda-aa2a-d93c9a63cb51
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _Measures = calculated
+		mode: import
+		source = {1}
+
+	annotation PBI_Id = 540bf6b9983c4995b426d4a5c9943d2a

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.4.0/schema.json",
+  "name": "p1_card3",
+  "position": {
+    "x": 516,
+    "y": 92,
+    "z": 12,
+    "width": 236,
+    "height": 110,
+    "tabOrder": 12
+  },
+  "visual": {
+    "visualType": "card",
+    "drillFilterOtherVisuals": true,
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "_Measures"
+                    }
+                  },
+                  "Property": "NPS (Latest)"
+                }
+              },
+              "queryRef": "_Measures.NPS (Latest)",
+              "nativeQueryRef": "NPS (Latest)",
+              "displayName": "NPS (unit-weighted)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

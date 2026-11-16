@@ -1,0 +1,145 @@
+table dim_community
+	lineageTag: 0e44713d-26e7-4d21-959f-31b0dea08509
+
+	column community_id
+		dataType: string
+		lineageTag: 55c36f1f-11f5-4449-8d91-e5a4c7473472
+		summarizeBy: none
+		sourceColumn: community_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column community_name
+		dataType: string
+		lineageTag: f7e84ac2-6a4f-45d3-8efc-6f62c5b3334f
+		summarizeBy: none
+		sourceColumn: community_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column region_id
+		dataType: string
+		isHidden
+		lineageTag: 20fd8f74-035d-44f0-a65f-426599e82c42
+		summarizeBy: none
+		sourceColumn: region_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column community_type
+		dataType: string
+		lineageTag: 81be0278-3ab9-4738-b378-dffa51a558c9
+		summarizeBy: none
+		sourceColumn: community_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column total_units
+		dataType: int64
+		formatString: 0
+		lineageTag: 1969ed81-48e2-4d66-8089-672bb7067974
+		summarizeBy: sum
+		sourceColumn: total_units
+
+		annotation SummarizationSetBy = Automatic
+
+	column build_type
+		dataType: string
+		lineageTag: 78f28926-22bc-434c-8b90-cb2e369ecb27
+		summarizeBy: none
+		sourceColumn: build_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column fiber_conversion_date
+		dataType: dateTime
+		formatString: Short Date
+		sourceProviderType: date
+		lineageTag: fdce7c91-9397-4578-b6ff-5fd9eaf6e69e
+		summarizeBy: none
+		sourceColumn: fiber_conversion_date
+
+		annotation SummarizationSetBy = Automatic
+		annotation UnderlyingDateTimeDataType = Date
+
+
+	column contract_start_date
+		dataType: dateTime
+		formatString: Short Date
+		sourceProviderType: date
+		lineageTag: 2f704179-7f8f-4343-9110-5112534080d9
+		summarizeBy: none
+		sourceColumn: contract_start_date
+
+		annotation SummarizationSetBy = Automatic
+		annotation UnderlyingDateTimeDataType = Date
+
+
+	column contract_end_date
+		dataType: dateTime
+		formatString: Short Date
+		sourceProviderType: date
+		lineageTag: 91e21006-0aa2-4cff-9dbe-595adc34f577
+		summarizeBy: none
+		sourceColumn: contract_end_date
+
+		annotation SummarizationSetBy = Automatic
+		annotation UnderlyingDateTimeDataType = Date
+
+
+	column contract_term_years
+		dataType: int64
+		formatString: 0
+		lineageTag: a9167987-d9c9-44c1-b71f-ba34a89a3fea
+		summarizeBy: none
+		sourceColumn: contract_term_years
+
+		annotation SummarizationSetBy = Automatic
+
+	column times_renewed
+		dataType: int64
+		formatString: 0
+		lineageTag: 3603f24f-b1e2-4652-99bc-1c6945d768a7
+		summarizeBy: none
+		sourceColumn: times_renewed
+
+		annotation SummarizationSetBy = Automatic
+
+	column bulk_tier_mbps
+		dataType: int64
+		formatString: 0
+		lineageTag: afc1670b-a766-4453-a232-79f2f515dde8
+		summarizeBy: none
+		sourceColumn: bulk_tier_mbps
+
+		annotation SummarizationSetBy = Automatic
+
+	column bulk_rate_per_door
+		dataType: double
+		lineageTag: 7e5d8b35-f350-4d77-bd0e-4c972fdf18be
+		summarizeBy: none
+		sourceColumn: bulk_rate_per_door
+
+		annotation SummarizationSetBy = Automatic
+
+	column competitor_activity_flag
+		dataType: int64
+		formatString: 0
+		lineageTag: f680ca14-4331-46ea-8a9c-87149cc45cf3
+		summarizeBy: none
+		sourceColumn: competitor_activity_flag
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_community = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(DataFolder & "dim_community.csv"), [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Blanks = Table.ReplaceValue(Promoted, "", null, Replacer.ReplaceValue, {"fiber_conversion_date", "contract_start_date", "contract_end_date"}),
+				    Typed = Table.TransformColumnTypes(Blanks, {{"community_id", type text}, {"community_name", type text}, {"region_id", type text}, {"community_type", type text}, {"total_units", Int64.Type}, {"build_type", type text}, {"fiber_conversion_date", type date}, {"contract_start_date", type date}, {"contract_end_date", type date}, {"contract_term_years", Int64.Type}, {"times_renewed", Int64.Type}, {"bulk_tier_mbps", Int64.Type}, {"bulk_rate_per_door", type number}, {"competitor_activity_flag", Int64.Type}}, "en-US")
+				in
+				    Typed
+
+	annotation PBI_ResultType = Table
